@@ -20,6 +20,13 @@
     <!-- For syntax highlighting -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
 
+    <style type="text/css">
+      .reveal .slides section .fragment.disappear {opacity: 1;}
+      .reveal .slides section .fragment.disappear.visible {display: none;}
+      .reveal .slides section .fragment.appear {display: none;}
+      .reveal .slides section .fragment.appear.visible {display: block;}
+    </style>
+
     <!-- If the query includes 'print-pdf', use the PDF print sheet -->
     <script>
       document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
@@ -46,12 +53,12 @@
 
         <section>
           <section>
-            <h1>Introducción</h1>
+            <h1>Presentación</h1>
           </section>
           <section>
             <h2>¿Quién soy?</h2>
             <ul>
-              <li>2003/09 - 2008/07: Estudiante</li>
+              <li>2003/09 - 2008/07: Estudiante de Ingeniería Informática</li>
               <li>2008/10 - 2010/11: Profesor sustituto</li>
               <li>2010/11 - 2014/01: Becario predoctoral</li>
               <li>2014/01 - sigue: Técnico investigador en la DGSI</li>
@@ -62,7 +69,7 @@
             <ul>
               <li>PFC: <a href="https://forja.rediris.es/projects/csl2-xmleye">XMLEye</a> (II CUSL)</li>
               <li>
-                Investigación:
+                Investigación: servicios web e ingeniería dirigida por modelos
                 <ul>
                   <li><a href="bpelunit.net">BPELUnit</a>: pruebas unitarias para WS-BPEL</li>
                   <li><a href="eclipse.org/epsilon">Eclipse Epsilon</a>: ingeniería dirigida por modelos</li>
@@ -85,10 +92,10 @@
                 </ul>
               </li>
               <li class="fragment">
-                Ayudamos a organizar y unificar los (¡muchos!) sistemas de información de la UCA:
+                Ayudamos a organizar los sistemas de información de la UCA:
                 <ul>
-                  <li>PHP: con framework (¡bien!) o sin framework (no tan bien)</li>
-                  <li>Django (¡bien!)</li>
+                  <li>PHP: con framework (p. ej. Symfony)... o sin él</li>
+                  <li>Django</li>
                   <li>Restos de Zope/Plone</li>
                   <li>Y un largo etcétera</li>
                 </ul>
@@ -105,39 +112,58 @@
               -->
           </section>
           <section>
-            <svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewbox="0 0 100 100" style="border: solid white 1px;">
-              <style type="text/css"><![CDATA[
-                circle, rect {
-                  stroke: white;
-                  fill: hsl(218, 100%, 81%);
-                }
-                #main-circle {
-                  transition: 1s;
-                }
-                #main-circle:hover {
-                  fill: hsl(0, 100%, 81%);
-                  transition: 1s;
-                }
-              ]]></style>
-              <rect id="main-circle" x="30" y="30" width="50" height="50" rx="5" ry="5"/>
-            </svg>
+            <h1>Pasos</h1>
+            <object data="lib/svg/pasos-opt.svg" type="image/svg+xml" style="width: 100%; height: 100%;"></object>
+            <ol>
+              <li>Se localizan las fuentes de datos</li>
+              <li class="fragment">Se cargan en el <emph>almacén de datos</emph></li>
+              <li class="fragment">Se explotan los datos para sacar información</li>
+            </ol>
+          </section>
+          <section>
+            <h2>Localizar las fuentes</h2>
+            <ul>
+              <li>¿Qué es lo que tenemos?</li>
+              <li>¿Quién es el responsable?</li>
+              <li>¿Cuándo se actualiza?</li>
+              <li>¿Cómo se mantiene?</li>
+              <li>¿De qué forma se almacena?</li>
+            </ul>
+            <p class="fragment" style="margin-top: 1ex;">En este paso pueden encontrarse problemas de calidad:<br>puede haber que revisar el origen.</p>
+          </section>
+          <section>
+            <h2>Carga en el almacén de datos</h2>
+            <ul>
+              <li>Es el repositorio central con toda la información.</li>
+              <li>Debe estar bien organizado en áreas de interés.</li>
+              <li>Los problemas de calidad de datos deben estar resueltos.</li>
+              <li>Identificadores únicos y formatos de campos uniformes (p. ej. sexo o ID personal).</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Carga en el almacén de datos</h2>
+            <p>En resumen...</p>
+            <img src="http://upload.wikimedia.org/wikipedia/commons/b/b7/Unico_Anello.png"
+                 style="width: 50%; height: auto; "/>
+          </section>
+          <section>
+            <h2>Explotación de los datos</h2>
+            <h4>¿Y ahora qué?</h4>
+            <p>Depende del tipo de toma de decisiones,<br>y del tiempo del destinatario.</p>
+            <ul class="fragment">
+              <li>Operacionales: listados de operaciones cotidianas.</li>
+              <li>Tácticas: resúmenes de más alto nivel (top 10 o estadísticas).</li>
+              <li>Estratégicas: cuadros de mando (estadísticas + interactividad).</li>
+            </ul>
           </section>
         </section>
 
         <section>
-          <h2>Carga del almacén</h2>
+          <h1>Herramientas que usamos</h1>
         </section>
 
         <section>
-          <h2>Explotación de los datos</h2>
-        </section>
-
-        <section>
-          <h2>Tecnologías subyacentes</h2>
-        </section>
-
-        <section>
-          <h2>En el punto de mira</h2>
+          <h1>Otras herramientas</h1>
         </section>
 
         <section>
@@ -151,10 +177,6 @@
 
     <script src="lib/js/head.min.js"></script>
     <script src="js/reveal.min.js"></script>
-
-    <script type="text/javascript"
-            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
 
     <script>
 
@@ -180,7 +202,8 @@
       { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
       { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
       { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-      { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+      { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'plugin/math/math.js', async: true }
       ]
       });
 

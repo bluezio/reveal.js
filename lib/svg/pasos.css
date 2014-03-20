@@ -1,0 +1,9 @@
+#sunrays {
+  -webkit-transform-origin:50% 50%;
+  -webkit-transform: rotate(0deg);
+}
+
+#sunrays:hover {
+  -webkit-transform: rotate(360deg);
+  transition: all 5s linear;
+}

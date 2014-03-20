@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="pasos.css"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" height="100%" width="100%" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1700 520">
+ <defs id="defs4">
+  <linearGradient id="linearGradient4680">
+   <stop id="stop4682" stop-color="#ffd700" offset="0"/>
+   <stop id="stop4684" stop-color="#ffee92" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient4672">
+   <stop id="stop4674" stop-color="#ffd800" offset="0"/>
+   <stop id="stop4676" stop-color="#ffe65d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3955">
+   <stop id="stop3957" stop-color="#ffb7b7" offset="0"/>
+   <stop id="stop3959" stop-color="#ff8989" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3947">
+   <stop id="stop3949" stop-color="#7c0000" offset="0"/>
+   <stop id="stop3951" stop-color="#7c0000" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <clipPath id="clipPath3933" clipPathUnits="userSpaceOnUse">
+   <rect id="rect3935" style="enable-background:accumulate;color:#000000;" fill-rule="nonzero" rx="15" ry="15" height="270" width="210" y="351.66" x="325.72" fill="#ff7a7a"/>
+  </clipPath>
+  <clipPath id="clipPath3933-7" clipPathUnits="userSpaceOnUse">
+   <rect id="rect3935-1" style="enable-background:accumulate;color:#000000;" fill-rule="nonzero" rx="15" ry="15" height="270" width="210" y="351.66" x="325.72" fill="#ff7a7a"/>
+  </clipPath>
+  <clipPath id="clipPath3933-2" clipPathUnits="userSpaceOnUse">
+   <rect id="rect3935-4" style="enable-background:accumulate;color:#000000;" fill-rule="nonzero" rx="15" ry="15" height="270" width="210" y="351.66" x="325.72" fill="#ff7a7a"/>
+  </clipPath>
+  <clipPath id="clipPath3933-9" clipPathUnits="userSpaceOnUse">
+   <rect id="rect3935-3" style="enable-background:accumulate;color:#000000;" fill-rule="nonzero" rx="15" ry="15" height="270" width="210" y="351.66" x="325.72" fill="#ff7a7a"/>
+  </clipPath>
+  <clipPath id="clipPath3933-24" clipPathUnits="userSpaceOnUse">
+   <rect id="rect3935-18" style="enable-background:accumulate;color:#000000;" fill-rule="nonzero" rx="15" ry="15" height="270" width="210" y="351.66" x="325.72" fill="#ff7a7a"/>
+  </clipPath>
+  <clipPath id="clipPath3933-4" clipPathUnits="userSpaceOnUse">
+   <rect id="rect3935-39" style="enable-background:accumulate;color:#000000;" fill-rule="nonzero" rx="15" ry="15" height="270" width="210" y="351.66" x="325.72" fill="#ff7a7a"/>
+  </clipPath>
+  <clipPath id="clipPath3933-70" clipPathUnits="userSpaceOnUse">
+   <rect id="rect3935-0" style="enable-background:accumulate;color:#000000;" fill-rule="nonzero" rx="15" ry="15" height="270" width="210" y="351.66" x="325.72" fill="#ff7a7a"/>
+  </clipPath>
+  <clipPath id="clipPath3933-73" clipPathUnits="userSpaceOnUse">
+   <rect id="rect3935-46" style="enable-background:accumulate;color:#000000;" fill-rule="nonzero" rx="15" ry="15" height="270" width="210" y="351.66" x="325.72" fill="#ff7a7a"/>
+  </clipPath>
+  <filter id="filter4510" color-interpolation-filters="sRGB">
+   <feColorMatrix id="feColorMatrix4512" values="320" type="hueRotate"/>
+  </filter>
+  <filter id="filter4516" color-interpolation-filters="sRGB">
+   <feColorMatrix id="feColorMatrix4518" type="hueRotate" values="230"/>
+  </filter>
+  <filter id="filter4520" color-interpolation-filters="sRGB">
+   <feColorMatrix id="feColorMatrix4522" type="hueRotate" values="192"/>
+  </filter>
+  <filter id="filter4524" color-interpolation-filters="sRGB">
+   <feColorMatrix id="feColorMatrix4526" type="hueRotate" values="72"/>
+  </filter>
+  <filter id="filter4528" color-interpolation-filters="sRGB">
+   <feColorMatrix id="feColorMatrix4530" type="hueRotate" values="108"/>
+  </filter>
+  <filter id="filter4532" color-interpolation-filters="sRGB">
+   <feColorMatrix id="feColorMatrix4534" type="hueRotate" values="36"/>
+  </filter>
+  <clipPath id="clipPath3933-4-8" clipPathUnits="userSpaceOnUse">
+   <rect id="rect3935-39-3" style="enable-background:accumulate;color:#000000;" fill-rule="nonzero" rx="15" ry="15" height="270" width="210" y="351.66" x="325.72" fill="#ff7a7a"/>
+  </clipPath>
+  <filter id="filter4524-8" color-interpolation-filters="sRGB">
+   <feColorMatrix id="feColorMatrix4526-1" type="hueRotate" values="144"/>
+  </filter>
+  <linearGradient id="linearGradient7254" x1="528.25" gradientUnits="userSpaceOnUse" x2="638.87" xlink:href="#linearGradient4672" y1="226.42" y2="226.42"/>
+  <radialGradient id="radialGradient7256" cx="566.98" gradientUnits="userSpaceOnUse" cy="141.65" xlink:href="#linearGradient4680" gradientTransform="matrix(0.25165177,0.97470501,-1.1209958,0.31463439,583.08211,-450.68841)" r="55.973"/>
+  <linearGradient id="linearGradient7266" x1="521.28" gradientUnits="userSpaceOnUse" x2="503.03" xlink:href="#linearGradient3947" y1="399.11" y2="439.52"/>
+  <linearGradient id="linearGradient7268" x1="466.25" gradientUnits="userSpaceOnUse" x2="524.76" xlink:href="#linearGradient3955" y1="420.17" y2="369.81"/>
+ </defs>
+ <g id="layer1" transform="translate(21.91399,-64.949982)">
+  <g id="g7133" fill-rule="nonzero" transform="translate(0,1.1241833)">
+   <path id="path4690" style="enable-background:accumulate;color:#000000;" d="m276.29,63.826c-35.026,0-64.937,19.64-76.875,47.298-12.282-6.5254-26.619-10.268-41.925-10.268-34.827,0-64.577,19.383-76.65,46.793-0.30129-0.003-0.59795,0-0.90001,0-45.524,0-82.463,33.126-82.463,73.994,0,14.171,4.4542,27.395,12.15,38.646-19.192,13.548-31.538,34.587-31.538,58.205,0,32.092,22.782,59.398,54.6,69.651-4.6776,9.2876-7.3125,19.577-7.3125,30.432,0,37.616,31.263,68.65,71.738,73.354-0.12393,1.6598-0.225,3.328-0.225,5.016,0,40.867,36.901,73.994,82.425,73.994,35.278,0,65.374-19.897,77.138-47.87,6.3582,1.4112,12.994,2.1545,19.838,2.1545,30.08,0,56.406-14.452,70.8-36.054,43.035-2.4703,77.1-34.602,77.1-73.859,0-9.7307-2.1223-18.993-5.925-27.504,42.046-3.3692,75-35.07,75-73.691,0-25.655-14.547-48.23-36.638-61.504,8.614-11.691,13.613-25.701,13.613-40.767,0-40.867-36.901-73.994-82.425-73.994-10.315,0-20.186,1.7074-29.288,4.814,0.11448-1.5962,0.1875-3.1918,0.1875-4.814,0-40.867-36.901-74.027-82.425-74.027z" fill-opacity="0.63483151" fill="#CCC"/>
+   <g id="g3918" transform="matrix(0.42759961,0,0,0.47619048,-91.623121,133.45721)" clip-path="url(#clipPath3933)">
+    <path id="rect3875" style="enable-background:accumulate;color:#000000;" fill="#ff7a7a" d="m340.72,351.66c-8.31,0-15,6.69-15,15v240c0,8.31,6.69,15,15,15h180c8.31,0,15-6.69,15-15v-185.12h-69.938v-69.875h-125.06z"/>
+    <path id="rect2985-0" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7266)" d="m468.5,420.72s17.446,31.875,67.36,32.918c10.76,0.22475-0.35657-32.284-0.35657-32.284l-66.456-2.03z"/>
+    <rect id="rect3963" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="396.66" x="349.29" fill="#FFF"/>
+    <path id="path3916" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7268)" d="m465.89,351.66,0,69.875,69.938,0-69.938-69.875z"/>
+    <rect id="rect3963-7" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="428.56" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-1" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="460.47" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-17" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="492.37" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-3" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="524.28" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-9" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="556.18" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-8" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="588.08" x="349.29" fill="#FFF"/>
+   </g>
+   <g id="g3918-0" clip-path="url(#clipPath3933-7)" transform="matrix(0.42759961,0,0,0.47619048,-34.910481,197.87781)" filter="url(#filter4510)">
+    <path id="rect3875-4" style="enable-background:accumulate;color:#000000;" fill="#ff7a7a" d="m340.72,351.66c-8.31,0-15,6.69-15,15v240c0,8.31,6.69,15,15,15h180c8.31,0,15-6.69,15-15v-185.12h-69.938v-69.875h-125.06z"/>
+    <path id="rect2985-0-3" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7266)" d="m468.5,420.72s17.446,31.875,67.36,32.918c10.76,0.22475-0.35657-32.284-0.35657-32.284l-66.456-2.03z"/>
+    <rect id="rect3963-0" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="396.66" x="349.29" fill="#FFF"/>
+    <path id="path3916-9" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7268)" d="m465.89,351.66,0,69.875,69.938,0-69.938-69.875z"/>
+    <rect id="rect3963-7-2" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="428.56" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-1-2" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="460.47" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-17-9" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="492.37" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-3-4" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="524.28" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-9-5" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="556.18" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-8-7" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="588.08" x="349.29" fill="#FFF"/>
+   </g>
+   <g id="g3918-9" clip-path="url(#clipPath3933-2)" transform="matrix(0.42759961,0,0,0.47619048,-55.591424,4.8647705)" filter="url(#filter4532)">
+    <path id="rect3875-7" style="enable-background:accumulate;color:#000000;" fill="#ff7a7a" d="m340.72,351.66c-8.31,0-15,6.69-15,15v240c0,8.31,6.69,15,15,15h180c8.31,0,15-6.69,15-15v-185.12h-69.938v-69.875h-125.06z"/>
+    <path id="rect2985-0-4" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7266)" d="m468.5,420.72s17.446,31.875,67.36,32.918c10.76,0.22475-0.35657-32.284-0.35657-32.284l-66.456-2.03z"/>
+    <rect id="rect3963-2" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="396.66" x="349.29" fill="#FFF"/>
+    <path id="path3916-6" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7268)" d="m465.89,351.66,0,69.875,69.938,0-69.938-69.875z"/>
+    <rect id="rect3963-7-5" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="428.56" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-1-0" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="460.47" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-17-98" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="492.37" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-3-6" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="524.28" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-9-1" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="556.18" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-8-4" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="588.08" x="349.29" fill="#FFF"/>
+   </g>
+   <g id="g3918-1" clip-path="url(#clipPath3933-9)" transform="matrix(0.42759961,0,0,0.47619048,67.13956,224.46377)" filter="url(#filter4516)">
+    <path id="rect3875-5" style="enable-background:accumulate;color:#000000;" fill="#ff7a7a" d="m340.72,351.66c-8.31,0-15,6.69-15,15v240c0,8.31,6.69,15,15,15h180c8.31,0,15-6.69,15-15v-185.12h-69.938v-69.875h-125.06z"/>
+    <path id="rect2985-0-32" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7266)" d="m468.5,420.72s17.446,31.875,67.36,32.918c10.76,0.22475-0.35657-32.284-0.35657-32.284l-66.456-2.03z"/>
+    <rect id="rect3963-98" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="396.66" x="349.29" fill="#FFF"/>
+    <path id="path3916-1" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7268)" d="m465.89,351.66,0,69.875,69.938,0-69.938-69.875z"/>
+    <rect id="rect3963-7-8" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="428.56" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-1-5" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="460.47" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-17-7" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="492.37" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-3-2" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="524.28" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-9-3" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="556.18" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-8-3" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="588.08" x="349.29" fill="#FFF"/>
+   </g>
+   <g id="g3918-5-0" clip-path="url(#clipPath3933-4-8)" transform="matrix(0.42759961,0,0,0.47619048,157.25639,-23.866419)" filter="url(#filter4524-8)">
+    <path id="rect3875-1-5" style="enable-background:accumulate;color:#000000;" fill="#ff7a7a" d="m340.72,351.66c-8.31,0-15,6.69-15,15v240c0,8.31,6.69,15,15,15h180c8.31,0,15-6.69,15-15v-185.12h-69.938v-69.875h-125.06z"/>
+    <path id="rect2985-0-1-5" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7266)" d="m468.5,420.72s17.446,31.875,67.36,32.918c10.76,0.22475-0.35657-32.284-0.35657-32.284l-66.456-2.03z"/>
+    <rect id="rect3963-87-4" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="396.66" x="349.29" fill="#FFF"/>
+    <path id="path3916-96-5" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7268)" d="m465.89,351.66,0,69.875,69.938,0-69.938-69.875z"/>
+    <rect id="rect3963-7-7-1" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="428.56" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-1-69-3" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="460.47" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-17-8-1" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="492.37" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-3-28-9" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="524.28" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-9-52-8" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="556.18" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-8-99-6" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="588.08" x="349.29" fill="#FFF"/>
+   </g>
+   <g id="g3918-6" clip-path="url(#clipPath3933-24)" transform="matrix(0.42759961,0,0,0.47619048,36.763188,-49.136767)" filter="url(#filter4510)">
+    <path id="rect3875-0" style="enable-background:accumulate;color:#000000;" fill="#ff7a7a" d="m340.72,351.66c-8.31,0-15,6.69-15,15v240c0,8.31,6.69,15,15,15h180c8.31,0,15-6.69,15-15v-185.12h-69.938v-69.875h-125.06z"/>
+    <path id="rect2985-0-2" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7266)" d="m468.5,420.72s17.446,31.875,67.36,32.918c10.76,0.22475-0.35657-32.284-0.35657-32.284l-66.456-2.03z"/>
+    <rect id="rect3963-97" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="396.66" x="349.29" fill="#FFF"/>
+    <path id="path3916-7" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7268)" d="m465.89,351.66,0,69.875,69.938,0-69.938-69.875z"/>
+    <rect id="rect3963-7-1" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="428.56" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-1-6" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="460.47" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-17-5" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="492.37" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-3-26" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="524.28" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-9-30" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="556.18" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-8-9" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="588.08" x="349.29" fill="#FFF"/>
+   </g>
+   <g id="g3918-5" clip-path="url(#clipPath3933-4)" transform="matrix(0.42759961,0,0,0.47619048,38.407134,108.86333)" filter="url(#filter4524)">
+    <path id="rect3875-1" style="enable-background:accumulate;color:#000000;" fill="#ff7a7a" d="m340.72,351.66c-8.31,0-15,6.69-15,15v240c0,8.31,6.69,15,15,15h180c8.31,0,15-6.69,15-15v-185.12h-69.938v-69.875h-125.06z"/>
+    <path id="rect2985-0-1" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7266)" d="m468.5,420.72s17.446,31.875,67.36,32.918c10.76,0.22475-0.35657-32.284-0.35657-32.284l-66.456-2.03z"/>
+    <rect id="rect3963-87" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="396.66" x="349.29" fill="#FFF"/>
+    <path id="path3916-96" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7268)" d="m465.89,351.66,0,69.875,69.938,0-69.938-69.875z"/>
+    <rect id="rect3963-7-7" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="428.56" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-1-69" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="460.47" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-17-8" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="492.37" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-3-28" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="524.28" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-9-52" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="556.18" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-8-99" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="588.08" x="349.29" fill="#FFF"/>
+   </g>
+   <g id="g3918-8" clip-path="url(#clipPath3933-70)" transform="matrix(0.42759961,0,0,0.47619048,126.97856,47.709595)" filter="url(#filter4528)">
+    <path id="rect3875-15" style="enable-background:accumulate;color:#000000;" fill="#ff7a7a" d="m340.72,351.66c-8.31,0-15,6.69-15,15v240c0,8.31,6.69,15,15,15h180c8.31,0,15-6.69,15-15v-185.12h-69.938v-69.875h-125.06z"/>
+    <path id="rect2985-0-6" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7266)" d="m468.5,420.72s17.446,31.875,67.36,32.918c10.76,0.22475-0.35657-32.284-0.35657-32.284l-66.456-2.03z"/>
+    <rect id="rect3963-84" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="396.66" x="349.29" fill="#FFF"/>
+    <path id="path3916-4" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7268)" d="m465.89,351.66,0,69.875,69.938,0-69.938-69.875z"/>
+    <rect id="rect3963-7-73" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="428.56" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-1-3" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="460.47" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-17-55" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="492.37" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-3-23" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="524.28" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-9-9" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="556.18" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-8-34" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="588.08" x="349.29" fill="#FFF"/>
+   </g>
+   <g id="g3918-4" clip-path="url(#clipPath3933-73)" transform="matrix(0.42759961,0,0,0.47619048,163.31432,178.86332)" filter="url(#filter4520)">
+    <path id="rect3875-50" style="enable-background:accumulate;color:#000000;" fill="#ff7a7a" d="m340.72,351.66c-8.31,0-15,6.69-15,15v240c0,8.31,6.69,15,15,15h180c8.31,0,15-6.69,15-15v-185.12h-69.938v-69.875h-125.06z"/>
+    <path id="rect2985-0-28" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7266)" d="m468.5,420.72s17.446,31.875,67.36,32.918c10.76,0.22475-0.35657-32.284-0.35657-32.284l-66.456-2.03z"/>
+    <rect id="rect3963-4" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="396.66" x="349.29" fill="#FFF"/>
+    <path id="path3916-95" style="enable-background:accumulate;color:#000000;" fill="url(#linearGradient7268)" d="m465.89,351.66,0,69.875,69.938,0-69.938-69.875z"/>
+    <rect id="rect3963-7-84" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="428.56" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-1-519" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="460.47" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-17-2" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="492.37" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-3-65" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="524.28" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-9-8" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="556.18" x="349.29" fill="#FFF"/>
+    <rect id="rect3963-8-40" style="enable-background:accumulate;color:#000000;" height="7.1429" width="157.86" y="588.08" x="349.29" fill="#FFF"/>
+   </g>
+  </g>
+  <g fill-opacity="0.54775277" fill-rule="nonzero" fill="#FF0" transform="matrix(2.0890285,0,0,2.0890285,-519.76829,452.26787)">
+    <g id="sunrays">
+      <path id="path4993" style="enable-background:accumulate;color:#000000;" d="m727.36,1.8613c-15.254,15.346-36.053,25.045-57.615,26.866-2.6999-30.86-5.3998-61.72-8.0997-92.58l65.714,65.714z"/>
+      <path id="path4993-3" style="enable-background:accumulate;color:#000000;" d="M637.59,25.914c-20.92-5.537-39.72-18.7-52.07-36.462,25.376-17.768,50.751-35.537,76.127-53.305-8.0177,29.922-16.035,59.845-24.053,89.767z"/>
+      <path id="path4993-3-8" style="enable-background:accumulate;color:#000000;" d="m574.31-32.068c-7.4617-20.311-7.4617-43.26,0-63.571,29.11,10.595,58.22,21.19,87.329,31.785-29.11,10.595-58.22,21.19-87.329,31.785z"/>
+      <path id="path4993-3-8-0" style="enable-background:accumulate;color:#000000;" d="m629.86-151.18c20.311-7.4617,43.26-7.4617,63.571,0-10.595,29.11-21.19,58.22-31.785,87.329-10.595-29.11-21.19-58.22-31.785-87.329z"/>
+      <path id="path4993-3-8-0-7" style="enable-background:accumulate;color:#000000;" d="m721.38-135.04c16.617,13.859,28.092,33.733,31.785,55.054-30.507,5.3793-61.015,10.759-91.522,16.138,19.912-23.731,39.825-47.461,59.737-71.192z"/>
+      <path id="path4993-3-8-0-7-7" style="enable-background:accumulate;color:#000000;" d="m753.16-47.715c-3.0372,9.3885-3.794,25.908-13.758,28.76-25.922-14.966-51.843-29.932-77.765-44.897,30.507,5.3793,61.015,10.759,91.522,16.138z"/>
+      <path id="path4993-3-8-0-78" style="enable-background:accumulate;color:#000000;" d="m585.52-117.16c6.7204-7.2253,14.388-21.878,24.623-20.251,17.168,24.519,34.336,49.037,51.504,73.556-25.376-17.768-50.751-35.537-76.127-53.305z"/>
+    </g>
+  </g>
+  <g id="g4931" fill-rule="nonzero" transform="matrix(0.95569137,0,0,0.90587607,297.26984,91.632101)" stroke="#806c00" stroke-dasharray="none" stroke-miterlimit="4">
+   <path id="path4933" style="enable-background:accumulate;color:#000000;" d="m528.75,153.78,0,110.72c-0.001,0.0947,0,0.18642,0,0.28125,0,18.935,24.541,34.281,54.812,34.281,30.272,0,54.812-15.346,54.812-34.281,0-0.095,0.001-0.18645,0-0.28125v-110.72h-109.62z" stroke-width="1.0747484" fill="url(#linearGradient7254)"/>
+   <path id="path4935" style="enable-background:accumulate;color:#000000;" d="m639.52,154.51c0,18.935-24.837,34.286-55.475,34.286s-55.475-15.35-55.475-34.286c0-18.935,24.837-34.286,55.475-34.286s55.475,15.35,55.475,34.286z" transform="matrix(0.98803673,0,0,1,6.5116607,0)" stroke-width="1.08123529" fill="url(#radialGradient7256)"/>
+  </g>
+  <g id="g4941" fill-rule="nonzero" transform="matrix(0.95569137,0,0,0.90587607,243.26984,151.6321)" stroke="#806c00" stroke-dasharray="none" stroke-miterlimit="4">
+   <path id="path4943" style="enable-background:accumulate;color:#000000;" d="m528.75,153.78,0,110.72c-0.001,0.0947,0,0.18642,0,0.28125,0,18.935,24.541,34.281,54.812,34.281,30.272,0,54.812-15.346,54.812-34.281,0-0.095,0.001-0.18645,0-0.28125v-110.72h-109.62z" stroke-width="1.0747484" fill="url(#linearGradient7254)"/>
+   <path id="path4945" style="enable-background:accumulate;color:#000000;" d="m639.52,154.51c0,18.935-24.837,34.286-55.475,34.286s-55.475-15.35-55.475-34.286c0-18.935,24.837-34.286,55.475-34.286s55.475,15.35,55.475,34.286z" transform="matrix(0.98803673,0,0,1,6.5116607,0)" stroke-width="1.08123529" fill="url(#radialGradient7256)"/>
+  </g>
+  <g id="g4660" fill-rule="nonzero" transform="matrix(0.95569137,0,0,0.90587607,355.61503,149.85546)" stroke="#806c00" stroke-dasharray="none" stroke-miterlimit="4">
+   <path id="path4632-0" style="enable-background:accumulate;color:#000000;" d="m528.75,153.78,0,110.72c-0.001,0.0947,0,0.18642,0,0.28125,0,18.935,24.541,34.281,54.812,34.281,30.272,0,54.812-15.346,54.812-34.281,0-0.095,0.001-0.18645,0-0.28125v-110.72h-109.62z" stroke-width="1.0747484" fill="url(#linearGradient7254)"/>
+   <path id="path4632" style="enable-background:accumulate;color:#000000;" d="m639.52,154.51c0,18.935-24.837,34.286-55.475,34.286s-55.475-15.35-55.475-34.286c0-18.935,24.837-34.286,55.475-34.286s55.475,15.35,55.475,34.286z" transform="matrix(0.98803673,0,0,1,6.5116607,0)" stroke-width="1.08123529" fill="url(#radialGradient7256)"/>
+  </g>
+  <path id="path4859" style="enable-background:accumulate;color:#000000;" d="m483.36,335.32,0-89.231,77.277,44.616z" fill-rule="nonzero" transform="translate(58.774222,27.800529)" fill="#008000"/>
+  <path id="path4859-5" style="enable-background:accumulate;color:#000000;" d="m483.36,335.32,0-89.231,77.277,44.616z" fill-rule="nonzero" transform="translate(619.12658,27.800529)" fill="#008000"/>
+  <g id="g7121" transform="translate(-105.14336,-20)">
+   <rect id="rect7119" style="enable-background:accumulate;color:#000000;" rx="5" ry="5" height="243.65" width="434.29" stroke="#000" stroke-dasharray="none" stroke-miterlimit="4" y="216.68" x="1334.8" stroke-width="2" fill="#FFF"/>
+   <g id="g7109" fill-rule="evenodd" transform="matrix(0.78051726,0,0,0.78051726,544.85291,-217.75473)">
+    <path id="path5698" d="m1284,595.24a117.44,117.44,0,0,1,117.26,123.89l-117.26-6.4469z" cursor="pointer" fill="#8ed300"/>
+    <path id="path5700" d="m1413.9,727.45a117.44,117.44,0,0,1,-64.983,98.715l-52.279-105.16z" cursor="pointer" fill="#7cb021"/>
+    <path id="path5702" d="m1336.3,817.85a117.44,117.44,0,0,1,-92.715,5.0973l40.436-110.26z" cursor="pointer" fill="#568000"/>
+    <path id="path5704" d="m1243.6,822.94a117.44,117.44,0,0,1,-54.726,-41.438l95.162-68.82z" cursor="pointer" fill="#3a3a3a"/>
+    <path id="path5706" d="m1188.9,781.5a117.44,117.44,0,0,1,-21.082,-52.107l116.24-16.713z" cursor="pointer" fill="#969696"/>
+    <path id="path5708" d="m1167.8,729.4a117.44,117.44,0,0,1,3.2051,-48.56l113.04,31.847z" cursor="pointer" fill="#f5f4f2"/>
+    <path id="path5710" d="m1171,680.84a117.44,117.44,0,0,1,20.992,-41.087l92.047,72.934z" cursor="pointer" fill="#8ed300"/>
+    <path id="path5712" d="m1192,639.75a117.44,117.44,0,0,1,92.047,-44.506v117.44z" cursor="pointer" fill="#7cb021"/>
+   </g>
+  </g>
+ </g>
+</svg>
