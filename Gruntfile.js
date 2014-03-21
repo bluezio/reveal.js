@@ -1,4 +1,5 @@
 /* global module:false */
+var proxySnippet = require('grunt-connect-proxy/lib/utils').proxyRequest;
 module.exports = function(grunt) {
 	var port = grunt.option('port') || 8000;
 	// Project configuration
@@ -80,8 +81,27 @@ module.exports = function(grunt) {
 			server: {
 				options: {
 					port: port,
-					base: '.'
-				}
+					base: '.',
+                                    middleware: function (connect, options) {
+                                        var proxy = require('grunt-connect-proxy/lib/utils').proxyRequest;
+                                        return [
+                                            // Include the proxy first
+                                            proxy,
+                                            // Serve static files.
+                                            connect.static(options.base),
+                                            // Make empty directories browsable.
+                                            connect.directory(options.base)
+                                        ];
+                                    }
+				},
+                                proxies: [
+                                    {
+                                        context: '/pentaho',
+                                        host: '127.0.0.1',
+                                        port: 8080,
+                                        changeOrigin: true,
+                                    }
+                                ]
 			}
 		},
 
@@ -117,6 +137,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 	grunt.loadNpmTasks( 'grunt-contrib-sass' );
 	grunt.loadNpmTasks( 'grunt-contrib-connect' );
+        grunt.loadNpmTasks( 'grunt-connect-proxy' );
 	grunt.loadNpmTasks( 'grunt-zip' );
 
 	// Default task
@@ -129,7 +150,7 @@ module.exports = function(grunt) {
 	grunt.registerTask( 'package', [ 'default', 'zip' ] );
 
 	// Serve presentation locally
-	grunt.registerTask( 'serve', [ 'connect', 'watch' ] );
+	grunt.registerTask( 'serve', [ 'configureProxies:server', 'connect', 'watch' ] );
 
 	// Run tests
 	grunt.registerTask( 'test', [ 'jshint', 'qunit' ] );

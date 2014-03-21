@@ -25,6 +25,14 @@
       .reveal .slides section .fragment.disappear.visible {display: none;}
       .reveal .slides section .fragment.appear {display: none;}
       .reveal .slides section .fragment.appear.visible {display: block;}
+
+      emph {
+        font-style: italic;
+      }
+
+      pre {
+        background: #222;
+      }
     </style>
 
     <!-- If the query includes 'print-pdf', use the PDF print sheet -->
@@ -144,7 +152,7 @@
             <h2>Carga en el almacén de datos</h2>
             <p>En resumen...</p>
             <img src="http://upload.wikimedia.org/wikipedia/commons/b/b7/Unico_Anello.png"
-                 style="width: 50%; height: auto; "/>
+                 style="width: 50%; height: auto; background: none; border: none; box-shadow: none;"/>
           </section>
           <section>
             <h2>Explotación de los datos</h2>
@@ -152,18 +160,351 @@
             <p>Depende del tipo de toma de decisiones,<br>y del tiempo del destinatario.</p>
             <ul class="fragment">
               <li>Operacionales: listados de operaciones cotidianas.</li>
-              <li>Tácticas: resúmenes de más alto nivel (top 10 o estadísticas).</li>
-              <li>Estratégicas: cuadros de mando (estadísticas + interactividad).</li>
+              <li>Tácticas: cubos multidimensionales, top 10, estadísticas...</li>
+              <li>Estratégicas: cubos y cuadros de mando (+ interactividad).</li>
             </ul>
           </section>
         </section>
 
         <section>
-          <h1>Herramientas que usamos</h1>
+          <section>
+            <h1>Herramientas para carga</h1>
+          </section>
+
+          <section>
+            <h2>Kettle</h2>
+            <ul>
+              <li>
+                Para definición de procesos ETL:
+                <ul>
+                  <li><emph>Extract</emph>: leemos datos (SQL, JSON, XML, Access, Excel...)</li>
+                  <li><emph>Transform</emph>: reordenamos, limpiamos, reemplazamos...</li>
+                  <li><emph>Load</emph>: volcado a una tabla de una BD, un CSV, etc.</li>
+                </ul>
+              </li>
+              <li>Dispone de Spoon (editor gráfico), Kitchen y Pan (ejecutan desde CLI) y Carte (servidor)</li>
+              <li>Basado en Java y <emph>muchas</emph> bibliotecas existentes (p. ej. Apache POI)</li>
+              <li>Adquirido por Pentaho: ahora es Pentaho Data Integration</li>
+              <li>Código disponible en <a href="https://github.com/pentaho/pentaho-kettle">Github</a></li>
+              <li>Se puede descargar de <a href="http://community.pentaho.com">Pentaho Community</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Kettle: ejemplo de transformación</h2>
+            <h4>Aristas = flujos de filas</h4>
+            <img src="lib/img/kettle-transformacion.png" style="width: 60%"/>
+          </section>
+
+          <section>
+            <h2>Kettle: ejemplo de trabajo</h2>
+            <h4>Aristas = flujos de control</h4>
+            <iframe src="lib/img/kettle-trabajo.png" style="width: 550px; height: 500px"></iframe>
+          </section>
+
+          <section data-transition="none">
+            <h2>OpenRefine</h2>
+
+            <ul style="float:left;">
+              <li>Originalmente Google Refine, ahora es un <a href="http://openrefine.org">proyecto abierto</a></li>
+              <li>Es muy útil para hacer una primera inspección de un <code>.xlsx</code> y detectar problemas de calidad</li>
+            </ul>
+            <iframe class="stretch" src="//www.youtube.com/embed/B70J_H_zAWM?start=60" frameborder="0" allowfullscreen style="margin-top: 1ex;"></iframe>
+          </section>
+
+          <section>
+            <h2>LibreOffice</h2>
+            <h4>Fuera esos .xls y .xlsx  &#9786;</h4>
+            <ul>
+              <li>La biblioteca Apache POI en Kettle no maneja bien macros Excel</li>
+              <li>
+                Por suerte, <a href="http://es.libreoffice.org/">LibreOffice</a> implementa conversiones masivas:
+                <pre style="padding: 1ex;">libreoffice --headless --convert-to csv --outdir out *.xls *.xlsx</pre>
+              </li>
+              <li>150+ ficheros .xls, .ods y .xlsx Excel: listos en un par de minutos</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Herramientas UNIX y scripting</h2>
+            <ul>
+              <li>UNIX: ¡troceando texto plano desde los '70!</li>
+              <li>Sólo con <a href="https://www.gnu.org/software/grep/">grep</a> y <a href="http://www.gnu.org/software/sed/">sed</a> ya se puede hacer muchísimo</li>
+              <li>En casos más complejos <a href="https://www.python.org/">Python</a>, <a href="http://perl.org">Perl</a> o <a href="https://www.ruby-lang.org/">Ruby</a> resuelven el problema</li>
+              <li class="fragment">Ojo: no todo se resuelve a base de expresiones regulares</li>
+            </ul>
+            <pre class="fragment"><code>(?:(?:\r\n)?[ \t])*(?:(?:(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t]
+)+|\Z|(?=[\["()<>@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:
+\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(
+?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[
+\t]))*"(?:(?:\r\n)?[ \t])*))*@(?:(?:\r\n)?[ \t])*(?:[^()<>@,;:\\".\[\] \000-\0
+31]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\
+](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()<>@,;:\\".\[\] \000-\031]+
+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:
+(?:\r\n)?[ \t])*))*|(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z
+|(?=[\["()<>@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)
+?[ \t])*)*\<(?:(?:\r\n)?[ \t])*(?:@(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\
+r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[
+ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)
+?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t]
+)*))*(?:,@(?:(?:\r\n)?[ \t])*(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[
+ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*
+)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t]
+)+|\Z|(?=[\["()<>@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*)
+*:(?:(?:\r\n)?[ \t])*)?(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+
+|\Z|(?=[\["()<>@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r
+\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:
+\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t
+]))*"(?:(?:\r\n)?[ \t])*))*@(?:(?:\r\n)?[ \t])*(?:[^()<>@,;:\\".\[\] \000-\031
+]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](
+?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()<>@,;:\\".\[\] \000-\031]+(?
+:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?
+:\r\n)?[ \t])*))*\>(?:(?:\r\n)?[ \t])*)|(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?
+:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?
+[ \t]))*"(?:(?:\r\n)?[ \t])*)*:(?:(?:\r\n)?[ \t])*(?:(?:(?:[^()<>@,;:\\".\[\]
+\000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|"(?:[^\"\r\\]|
+\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()<>
+@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|"
+(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*))*@(?:(?:\r\n)?[ \t]
+)*(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\
+".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?
+:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[
+\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*|(?:[^()<>@,;:\\".\[\] \000-
+\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(
+?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*)*\<(?:(?:\r\n)?[ \t])*(?:@(?:[^()<>@,;
+:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|\[([
+^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()<>@,;:\\"
+.\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|\[([^\[\
+]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*(?:,@(?:(?:\r\n)?[ \t])*(?:[^()<>@,;:\\".\
+[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|\[([^\[\]\
+r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()<>@,;:\\".\[\]
+\000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|\[([^\[\]\r\\]
+|\\.)*\](?:(?:\r\n)?[ \t])*))*)*:(?:(?:\r\n)?[ \t])*)?(?:[^()<>@,;:\\".\[\] \0
+00-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\
+.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()<>@,
+;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|"(?
+:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*))*@(?:(?:\r\n)?[ \t])*
+(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".
+\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[
+^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\]
+]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*\>(?:(?:\r\n)?[ \t])*)(?:,\s*(
+?:(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\
+".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*)(?:\.(?:(
+?:\r\n)?[ \t])*(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[
+\["()<>@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t
+])*))*@(?:(?:\r\n)?[ \t])*(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t
+])+|\Z|(?=[\["()<>@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?
+:\.(?:(?:\r\n)?[ \t])*(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|
+\Z|(?=[\["()<>@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*|(?:
+[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".\[\
+]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*)*\<(?:(?:\r\n)
+?[ \t])*(?:@(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["
+()<>@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)
+?[ \t])*(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>
+@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*(?:,@(?:(?:\r\n)?[
+ \t])*(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,
+;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t]
+)*(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\
+".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*)*:(?:(?:\r\n)?[ \t])*)?
+(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()<>@,;:\\".
+\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*)(?:\.(?:(?:
+\r\n)?[ \t])*(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\[
+"()<>@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])
+*))*@(?:(?:\r\n)?[ \t])*(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])
++|\Z|(?=[\["()<>@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\
+.(?:(?:\r\n)?[ \t])*(?:[^()<>@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z
+|(?=[\["()<>@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*\>(?:(
+?:\r\n)?[ \t])*))*)?;\s*)</code></pre>
+            <p class="fragment">¿Alguien adivina qué hace esta bonita regexp?</p>
+          </section>
+
+          <section>
+            <h2>Vistas de BD y PL/SQL</h2>
+            <ul>
+              <li>Más cerca del origen = mayor eficiencia</li>
+              <li>SQL es muy conciso para ciertas cosas (para otras, no tanto)</li>
+              <li>Con muchos datos (200k+ filas), es mejor hacer lo posible en BD</li>
+              <li>Hay que tirar de EXPLAIN y revisar las estructuras de datos e índices que pueda haber</li>
+            </ul>
+          </section>
         </section>
 
         <section>
-          <h1>Otras herramientas</h1>
+          <section>
+            <h1>Herramientas para explotación</h1>
+          </section>
+
+          <section>
+            <h2>Pentaho BI Server</h2>
+            <ul>
+              <li>Servidor de Inteligencia Empresarial y Analíticas de Negocio: punto de entrada a toda la información  extraída del almacén</li>
+              <li class="fragment" data-fragment-index="0">Integración de muchos proyectos (GPL, EPL, MPL y demás)</li>
+              <li class="fragment" data-fragment-index="0">Código disponible en <a href="https://github.com/pentaho">Github</a>, binarios en <a href="http://community.pentaho.com">Pentaho Community</a></li>
+              <li class="fragment" data-fragment-index="1">
+                Modelo de negocio "freemium" con dos ediciones:
+                <ul>
+                  <li><emph>Community</emph>: de código abierto y sin soporte oficial</li>
+                  <li><emph>Enterprise</emph>: con extensiones cerradas y soporte oficial (~30.000€/año)</li>
+                </ul>
+              </li>
+              <li class="fragment">Gracias a la comunidad FLOSS, la edición Community tiene funcionalidad equivalente: <a href="http://www.webdetails.pt/">WebDetails</a> (ahora parte de Pentaho Corp.) contribuyó muchas mejoras, conocidas como las "CTools"</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Pentaho BI Server</h2>
+            <h2 style="margin: 20% auto;"><a href="http://localhost:8080/pentaho/Home">Demo</a></h3>
+          </section>
+
+          <section>
+            <h2>Pentaho Report Designer</h2>
+            <ul>
+              <li>Aplicación de escritorio (Win/MacOS/Linux) para diseño de informes avanzados, basada en <a href="http://sourceforge.net/projects/jfreereport/">JFreeReport</a> (otro proyecto abierto de Pentaho)</li>
+              <li>Los informes pueden consumir consultas SQL, MDX, transformaciones Kettle, etc.</li>
+              <li>Permite exportar los informes a PDF, HTML, Excel y CSV, entre otros</li>
+              <li>Los informes pueden incorporar enlaces, gráficas, subinformes, etc.</li>
+              <li>Una vez están listos, se publican al servidor y se visualizan desde ahí</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Pentaho Report Designer</h2>
+            <iframe class="stretch" src="http://localhost:8000/pentaho/api/repos/:public:Steel%20Wheels:Reports:Buyer%20Report%20(sparkline%20report).prpt/viewer"></iframe>
+          </section>
+
+          <section>
+            <h2>Cubos OLAP: Mondrian y Saiku</h2>
+            <ul>
+              <li>Imaginemos que queremos estudiar las notas de los alumnos</li>
+              <li>¿Cómo las guardamos para cualquier estudio que se nos ocurra?</li>
+
+              <li class="fragment" data-fragment-index="0">
+                Podemos tener en una tabla una fila por nota, con:
+                <ul>
+                  <li>Alumno (sexo, edad, años en la carrera, número de matrícula)</li>
+                  <li>Profesor (sexo, edad, categoría, área, departamento, centro, NIF)</li>
+                  <li>Estudios (titulación, plan, materia, curso, convocatoria)</li>
+                  <li>Nota obtenida (numérica y no numérica)</li>
+                </ul>
+              </li>
+
+              <!-- <li class="fragment" data-fragment-index="1">Cada nota obtenida es una fila en la "tabla de hechos"</li> -->
+              <!-- <li class="fragment" data-fragment-index="1">Cada hecho se relaciona con filas de las "tablas de dimensiones"</li> -->
+              <!-- <li class="fragment" data-fragment-index="1">Las dimensiones sitúan al hecho: alumno, profesor y estudios</li> -->
+              <!-- <li class="fragment" data-fragment-index="1">Las dimensiones pueden tener varias jerarquías: profesor tiene "sexo" y "categoría", entre otras</li> -->
+            </ul>
+          </section>
+
+          <section>
+            <h2>Cubos OLAP: Mondrian y Saiku</h2>
+            <object data="lib/svg/rolap-ejemplo-opt.svg" type="image/svg+xml" style="width: 50%;"></object>
+            <ul style="margin-top: 1ex;">
+              <li>En el centro hay una <span style="font-weight:bold; color:#dcff5f;">tabla de hechos</span></li>
+              <li>Cada hecho está en unas <span style="color: #9ed8ff; font-weight:bold;">dimensiones</span></li>
+              <li>Un almacén tiene muchos de estos "esquemas en estrella"</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Cubos OLAP: Mondrian y Saiku</h2>
+            <ul>
+              <li>Podríamos intentar consultar estas estrellas con SQL, pero no sería práctico</li>
+              <li>Hay un estándar <emph>de facto</emph> para esto: MDX, originario de Microsoft</li>
+              <li><a href="http://community.pentaho.com/projects/mondrian/">Mondrian</a> es un motor de código abierto que implementa un dialecto de MDX</li>
+              <li><a href="http://www.meteorite.bi/saiku">Saiku</a> es un cliente cómodo para MDX que se integra en Pentaho</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Cubos OLAP: Mondrian y Saiku</h2>
+            <iframe class="stretch" src="http://localhost:8000/pentaho/content/saiku-ui/index.html?biplugin5=true"></iframe>
+          </section>
+
+          <section>
+            <h2>Cuadros de mando: CDF + CDE</h2>
+            <ul>
+              <li>Hay usuarios muy ocupados que no tienen tiempo de mirar informes ni trastear con Saiku</li>
+              <li>Hay que darles la información ya lista, que deje explorar y que quepa en un pantallazo: un <emph>cuadro de mando</emph></li>
+              <li>El <a href="https://github.com/webdetails/cdf">Community Dashboard Framework</a> y el <a href="https://github.com/webdetails/cde">Community Dashboard Editor</a> permiten elaborar cuadros de mando sin mucha complicación</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Cuadros de mando: CDF + CDE</h2>
+            <iframe class="stretch" src="http://localhost:8000/pentaho/api/repos/:public:plugin-samples:pentaho-cdf-dd:cde_sample1.wcdf/wcdf.edit"></iframe>
+          </section>
+
+          <section>
+            <h2>REST para datos: CDA</h2>
+            <ul>
+              <li><a href="https://github.com/webdetails/cda/tree/master/cda-pentaho">Community Data Access</a> aporta los servicios Web REST que necesita CDF para los cuadros de mando</li>
+              <li>Por lo demás, un cuadro de mando es un fichero JSON que se transforma a HTML + JavaScript</li>
+              <li>Los servicios REST se pueden usar de forma independiente a CDA (para cualquier otra web)</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>REST para datos: CDA</h2>
+            <iframe class="stretch" src="http://localhost:8000/pentaho/plugin/cda/api/previewQuery?path=/public/plugin-samples/pentaho-cdf-dd/cde_sample1.cda"></iframe>
+          </section>
+
+          <section>
+            <h2>Validación automática: CDV</h2>
+            <ul>
+              <li><a href="https://github.com/webdetails/cdv">Community Data Validator</a> permite comprobar automáticamente fuentes CDA</li>
+              <li>Útil para detectar momentos en que las consultas fallan o tardan demasiado, o para detectar filas incorrectas</li>
+              <li>Sólo hay que indicar la ruta al fichero de CDA, el nombre de la consulta, los parámetros y un trozo de JavaScript con la verificación</li>
+              <li>Se pueden especificar expresiones <emph>cron</emph> para automatizar las comprobaciones</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Validación automática: CDV</h2>
+            <iframe class="stretch" src="http://localhost:8000/pentaho/plugin/cdv/api/validations"></iframe>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>En el punto<br>de mira</h1>
+          </section>
+          <section>
+            <h2>Sparkl</h2>
+            <ul>
+              <li><a href="http://pedroalves-bi.blogspot.com.es/2013/10/sparkl-pentaho-application-builder.html">Sparkl</a> es otro proyecto más de la gente de las CTools</li>
+              <li>Permite crear extensiones para Pentaho usando transformaciones Kettle y cuadros de mando CDE</li>
+              <li>
+                Ya hay unos cuantos desarrollos nuevos subidos al Pentaho Marketplace:
+                <ul>
+                  <li><a href="http://www.biztech.it/btable/">BTable</a>, un componente para CDE que implementa tablas OLAP al estilo de Saiku</li>
+                  <li><a href="http://pedroalves-bi.blogspot.com.es/2013/12/new-pentaho-application-pentaho.html">Repository Synchronizer</a>, para sincronizar el repositorio JCR de Pentaho con un directorio local</li>
+                  <li><a href="http://www.openbi.com/content/pentaho-log-manager-plugin-4-easy-steps">Log Manager</a>, para gestionar registros locales</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h2>CKAN</h2>
+            <ul>
+              <li><a href="http://ckan.org/">CKAN</a> es un proyecto de código abierto para portales de datos abiertos (como debe ser)</li>
+              <li>Está siendo adoptado por varias universidades del entorno (por ejemplo, la Universidad de Granada)</li>
+              <li>En la DGSI se está estudiando la posibilidad de abrir algunos conjuntos de datos al público, y podría ser una opción para organizarlos</li>
+            </ul>
+          </section>
+          <section>
+            <h2>D3.js</h2>
+            <ul style="margin-bottom: 1ex">
+              <li>Lib. JavaScript para convertir datos en visualizaciones interactivas</li>
+              <li>Sólo utiliza estándares abiertos: HTML, CSS, SVG y JavaScript</li>
+            </ul>
+            <iframe id="ejD3" class="stretch" src="http://bl.ocks.org/mbostock/5944371" style="background: white;"></iframe>
+            <p>
+              Ejemplos:
+              <a href="#" onClick="document.getElementById('ejD3').src = 'http://bl.ocks.org/mbostock/5944371; return false;">radiales</a>,
+              <a href="#" onClick="document.getElementById('ejD3').src = 'http://bl.ocks.org/mbostock/3231298'; return false;">colisiones</a>,
+              <a href="#" onClick="document.getElementById('ejD3').src = 'http://www.nytimes.com/interactive/2012/09/06/us/politics/convention-word-counts.html?_r=0'; return false;">NY Times</a>
+            </p>
+          </section>
         </section>
 
         <section>

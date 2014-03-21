@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="rolap-ejemplo.css" type="text/css" ?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg4720" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1038.3 646.88" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata4725">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(154.84375,-27.5)">
+  <rect id="ralumno" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" stroke-dasharray="none" fill-rule="nonzero" stroke-dashoffset="0" rx="3" ry="3" height="261.43" width="261.43" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="410.93" x="-152.86" stroke-width="4" fill="#9ed8ff"/>
+  <rect id="rconv" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" stroke-dasharray="none" fill-rule="nonzero" stroke-dashoffset="0" rx="3" ry="3" height="261.43" width="261.43" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="410.93" x="620" stroke-width="4" fill="#9ed8ff"/>
+  <rect id="rnotas" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" stroke-dasharray="none" fill-rule="nonzero" stroke-dashoffset="0" rx="3" ry="3" height="261.43" width="261.43" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="410.93" x="233.57" stroke-width="4" fill="#dcff5f"/>
+  <rect id="rprof" stroke-linejoin="miter" style="enable-background:accumulate;color:#000000;" stroke-dasharray="none" fill-rule="nonzero" stroke-dashoffset="0" rx="3" ry="3" height="261.43" width="261.43" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" y="29.505" x="233.57" stroke-width="4" fill="#9ed8ff"/>
+  <path id="path5248" stroke-linejoin="miter" d="m108.57,541.65,125,0" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="8" fill="none"/>
+  <path id="path5250" stroke-linejoin="miter" d="m495,541.65,125,0" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="8" fill="none"/>
+  <path id="path5252" stroke-linejoin="miter" d="m364.29,410.93,0-120" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="8" fill="none"/>
+  <text id="text5698" style="letter-spacing:0px;word-spacing:0px;" font-weight="normal" xml:space="preserve" font-size="12px" font-style="normal" y="175.21933" x="237.981" font-family="Sans" line-height="125%" fill="#000000"><tspan id="tspan5700" font-size="48px" y="175.21933" x="237.981">Profesores</tspan></text>
+  <text id="text5698-3" style="letter-spacing:0px;word-spacing:0px;" font-weight="normal" xml:space="preserve" font-size="12px" font-style="normal" y="559.54242" x="-125.25615" font-family="Sans" line-height="125%" fill="#000000"><tspan id="tspan5700-1" font-size="48px" y="559.54242" x="-125.25615">Alumnos</tspan></text>
+  <text id="text5698-0" style="letter-spacing:0px;text-anchor:middle;word-spacing:0px;text-align:center;" font-weight="normal" xml:space="preserve" font-size="48px" line-height="125%" y="529.12054" x="750.55023" font-family="Sans" font-style="normal" fill="#000000"><tspan id="tspan5700-17" style="text-anchor:middle;text-align:center;" y="529.12054" x="750.55023">Convoca-</tspan><tspan id="tspan5744" style="text-anchor:middle;text-align:center;" y="589.12054" x="750.55023">torias</tspan></text>
+  <text id="text5698-3-7" style="letter-spacing:0px;word-spacing:0px;" font-weight="normal" xml:space="preserve" font-size="12px" font-style="normal" y="558.80414" x="293.83258" font-family="Sans" line-height="125%" fill="#000000"><tspan id="tspan5700-1-1" font-size="48px" y="558.80414" x="293.83258">Notas</tspan></text>
+ </g>
+</svg>

@@ -1,0 +1,1756 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg:svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100%"
+   height="100%"
+   id="svg2"
+   version="1.1"
+   viewBox="0 0 1700 520"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="pasos.svg">
+  <svg:defs
+     id="defs4">
+    <svg:linearGradient
+       id="linearGradient4816">
+      <svg:stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4818" />
+      <svg:stop
+         style="stop-color:#dbdbdb;stop-opacity:0.8526786;"
+         offset="1"
+         id="stop4820" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient4680">
+      <svg:stop
+         style="stop-color:#ffd700;stop-opacity:1;"
+         offset="0"
+         id="stop4682" />
+      <svg:stop
+         style="stop-color:#ffee92;stop-opacity:1;"
+         offset="1"
+         id="stop4684" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient4672">
+      <svg:stop
+         style="stop-color:#ffd800;stop-opacity:1;"
+         offset="0"
+         id="stop4674" />
+      <svg:stop
+         style="stop-color:#ffe65d;stop-opacity:1;"
+         offset="1"
+         id="stop4676" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient3955">
+      <svg:stop
+         style="stop-color:#ffb7b7;stop-opacity:1;"
+         offset="0"
+         id="stop3957" />
+      <svg:stop
+         style="stop-color:#ff8989;stop-opacity:1;"
+         offset="1"
+         id="stop3959" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient3947">
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:1;"
+         offset="0"
+         id="stop3949" />
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:0;"
+         offset="1"
+         id="stop3951" />
+    </svg:linearGradient>
+    <svg:clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3006">
+      <svg:rect
+         ry="15"
+         rx="15"
+         y="71.647896"
+         x="56.42857"
+         height="157.85715"
+         width="137.14285"
+         id="rect3008"
+         style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:#ececec;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </svg:clipPath>
+    <svg:clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3006-9">
+      <svg:rect
+         ry="15"
+         rx="15"
+         y="71.647896"
+         x="56.42857"
+         height="157.85715"
+         width="137.14285"
+         id="rect3008-3"
+         style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:#ececec;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </svg:clipPath>
+    <svg:clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3933">
+      <svg:rect
+         style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3935"
+         width="210"
+         height="270"
+         x="325.71875"
+         y="351.65625"
+         rx="15"
+         ry="15" />
+    </svg:clipPath>
+    <svg:clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3933-7">
+      <svg:rect
+         style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3935-1"
+         width="210"
+         height="270"
+         x="325.71875"
+         y="351.65625"
+         rx="15"
+         ry="15" />
+    </svg:clipPath>
+    <svg:linearGradient
+       id="linearGradient3947-3">
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:1;"
+         offset="0"
+         id="stop3949-7" />
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:0;"
+         offset="1"
+         id="stop3951-9" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient3955-3">
+      <svg:stop
+         style="stop-color:#ffb7b7;stop-opacity:1;"
+         offset="0"
+         id="stop3957-1" />
+      <svg:stop
+         style="stop-color:#ff8989;stop-opacity:1;"
+         offset="1"
+         id="stop3959-4" />
+    </svg:linearGradient>
+    <svg:clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3933-2">
+      <svg:rect
+         style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3935-4"
+         width="210"
+         height="270"
+         x="325.71875"
+         y="351.65625"
+         rx="15"
+         ry="15" />
+    </svg:clipPath>
+    <svg:linearGradient
+       id="linearGradient3947-9">
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:1;"
+         offset="0"
+         id="stop3949-6" />
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:0;"
+         offset="1"
+         id="stop3951-6" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient3955-1">
+      <svg:stop
+         style="stop-color:#ffb7b7;stop-opacity:1;"
+         offset="0"
+         id="stop3957-5" />
+      <svg:stop
+         style="stop-color:#ff8989;stop-opacity:1;"
+         offset="1"
+         id="stop3959-7" />
+    </svg:linearGradient>
+    <svg:clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3933-9">
+      <svg:rect
+         style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3935-3"
+         width="210"
+         height="270"
+         x="325.71875"
+         y="351.65625"
+         rx="15"
+         ry="15" />
+    </svg:clipPath>
+    <svg:linearGradient
+       id="linearGradient3947-6">
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:1;"
+         offset="0"
+         id="stop3949-2" />
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:0;"
+         offset="1"
+         id="stop3951-7" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient3955-19">
+      <svg:stop
+         style="stop-color:#ffb7b7;stop-opacity:1;"
+         offset="0"
+         id="stop3957-9" />
+      <svg:stop
+         style="stop-color:#ff8989;stop-opacity:1;"
+         offset="1"
+         id="stop3959-6" />
+    </svg:linearGradient>
+    <svg:clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3933-24">
+      <svg:rect
+         style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3935-18"
+         width="210"
+         height="270"
+         x="325.71875"
+         y="351.65625"
+         rx="15"
+         ry="15" />
+    </svg:clipPath>
+    <svg:linearGradient
+       id="linearGradient3947-60">
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:1;"
+         offset="0"
+         id="stop3949-9" />
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:0;"
+         offset="1"
+         id="stop3951-1" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient3955-4">
+      <svg:stop
+         style="stop-color:#ffb7b7;stop-opacity:1;"
+         offset="0"
+         id="stop3957-50" />
+      <svg:stop
+         style="stop-color:#ff8989;stop-opacity:1;"
+         offset="1"
+         id="stop3959-5" />
+    </svg:linearGradient>
+    <svg:clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3933-6">
+      <svg:rect
+         style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3935-5"
+         width="210"
+         height="270"
+         x="325.71875"
+         y="351.65625"
+         rx="15"
+         ry="15" />
+    </svg:clipPath>
+    <svg:linearGradient
+       id="linearGradient3947-64">
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:1;"
+         offset="0"
+         id="stop3949-94" />
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:0;"
+         offset="1"
+         id="stop3951-68" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient3955-18">
+      <svg:stop
+         style="stop-color:#ffb7b7;stop-opacity:1;"
+         offset="0"
+         id="stop3957-2" />
+      <svg:stop
+         style="stop-color:#ff8989;stop-opacity:1;"
+         offset="1"
+         id="stop3959-68" />
+    </svg:linearGradient>
+    <svg:clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3933-4">
+      <svg:rect
+         style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3935-39"
+         width="210"
+         height="270"
+         x="325.71875"
+         y="351.65625"
+         rx="15"
+         ry="15" />
+    </svg:clipPath>
+    <svg:linearGradient
+       id="linearGradient3947-90">
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:1;"
+         offset="0"
+         id="stop3949-63" />
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:0;"
+         offset="1"
+         id="stop3951-8" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient3955-180">
+      <svg:stop
+         style="stop-color:#ffb7b7;stop-opacity:1;"
+         offset="0"
+         id="stop3957-6" />
+      <svg:stop
+         style="stop-color:#ff8989;stop-opacity:1;"
+         offset="1"
+         id="stop3959-1" />
+    </svg:linearGradient>
+    <svg:clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3933-70">
+      <svg:rect
+         style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3935-0"
+         width="210"
+         height="270"
+         x="325.71875"
+         y="351.65625"
+         rx="15"
+         ry="15" />
+    </svg:clipPath>
+    <svg:linearGradient
+       id="linearGradient3947-2">
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:1;"
+         offset="0"
+         id="stop3949-8" />
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:0;"
+         offset="1"
+         id="stop3951-2" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient3955-31">
+      <svg:stop
+         style="stop-color:#ffb7b7;stop-opacity:1;"
+         offset="0"
+         id="stop3957-10" />
+      <svg:stop
+         style="stop-color:#ff8989;stop-opacity:1;"
+         offset="1"
+         id="stop3959-2" />
+    </svg:linearGradient>
+    <svg:clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3933-73">
+      <svg:rect
+         style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3935-46"
+         width="210"
+         height="270"
+         x="325.71875"
+         y="351.65625"
+         rx="15"
+         ry="15" />
+    </svg:clipPath>
+    <svg:linearGradient
+       id="linearGradient3947-8">
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:1;"
+         offset="0"
+         id="stop3949-86" />
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:0;"
+         offset="1"
+         id="stop3951-3" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient3955-33">
+      <svg:stop
+         style="stop-color:#ffb7b7;stop-opacity:1;"
+         offset="0"
+         id="stop3957-7" />
+      <svg:stop
+         style="stop-color:#ff8989;stop-opacity:1;"
+         offset="1"
+         id="stop3959-686" />
+    </svg:linearGradient>
+    <svg:filter
+       id="filter4510"
+       inkscape:label="Rotate Color 320"
+       color-interpolation-filters="sRGB">
+      <svg:feColorMatrix
+         id="feColorMatrix4512"
+         type="hueRotate"
+         values="320" />
+    </svg:filter>
+    <svg:filter
+       inkscape:label="Rotate Color 230"
+       id="filter4516"
+       color-interpolation-filters="sRGB">
+      <svg:feColorMatrix
+         values="230"
+         type="hueRotate"
+         id="feColorMatrix4518" />
+    </svg:filter>
+    <svg:filter
+       inkscape:label="Rotate Color 192"
+       id="filter4520"
+       color-interpolation-filters="sRGB">
+      <svg:feColorMatrix
+         values="192"
+         type="hueRotate"
+         id="feColorMatrix4522" />
+    </svg:filter>
+    <svg:filter
+       inkscape:label="Rotate Color 72"
+       id="filter4524"
+       color-interpolation-filters="sRGB">
+      <svg:feColorMatrix
+         values="72"
+         type="hueRotate"
+         id="feColorMatrix4526" />
+    </svg:filter>
+    <svg:filter
+       inkscape:label="Rotate Color 108"
+       id="filter4528"
+       color-interpolation-filters="sRGB">
+      <svg:feColorMatrix
+         values="108"
+         type="hueRotate"
+         id="feColorMatrix4530" />
+    </svg:filter>
+    <svg:filter
+       inkscape:label="Rotate Color 36"
+       id="filter4532"
+       color-interpolation-filters="sRGB">
+      <svg:feColorMatrix
+         values="36"
+         type="hueRotate"
+         id="feColorMatrix4534" />
+    </svg:filter>
+    <svg:clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3933-4-8">
+      <svg:rect
+         style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3935-39-3"
+         width="210"
+         height="270"
+         x="325.71875"
+         y="351.65625"
+         rx="15"
+         ry="15" />
+    </svg:clipPath>
+    <svg:filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Rotate Color 144"
+       id="filter4524-8">
+      <svg:feColorMatrix
+         values="144"
+         type="hueRotate"
+         id="feColorMatrix4526-1" />
+    </svg:filter>
+    <svg:linearGradient
+       id="linearGradient3947-90-7">
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:1;"
+         offset="0"
+         id="stop3949-63-7" />
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:0;"
+         offset="1"
+         id="stop3951-8-0" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient3955-180-3">
+      <svg:stop
+         style="stop-color:#ffb7b7;stop-opacity:1;"
+         offset="0"
+         id="stop3957-6-8" />
+      <svg:stop
+         style="stop-color:#ff8989;stop-opacity:1;"
+         offset="1"
+         id="stop3959-1-3" />
+    </svg:linearGradient>
+    <svg:filter
+       inkscape:label="Rotate Color 268"
+       id="filter4620"
+       color-interpolation-filters="sRGB">
+      <svg:feColorMatrix
+         values="268"
+         type="hueRotate"
+         id="feColorMatrix4622" />
+    </svg:filter>
+    <svg:linearGradient
+       id="linearGradient4672-0">
+      <svg:stop
+         style="stop-color:#ffd800;stop-opacity:1;"
+         offset="0"
+         id="stop4674-5" />
+      <svg:stop
+         style="stop-color:#ffe65d;stop-opacity:0.88839287;"
+         offset="1"
+         id="stop4676-9" />
+    </svg:linearGradient>
+    <svg:radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4680-5"
+       id="radialGradient4686-7"
+       cx="566.97766"
+       cy="141.64673"
+       fx="566.97766"
+       fy="141.64673"
+       r="55.973434"
+       gradientTransform="matrix(0.25165177,0.97470501,-1.1209958,0.31463439,583.08211,-450.68841)"
+       gradientUnits="userSpaceOnUse" />
+    <svg:linearGradient
+       id="linearGradient4680-5">
+      <svg:stop
+         style="stop-color:#ffd700;stop-opacity:1;"
+         offset="0"
+         id="stop4682-4" />
+      <svg:stop
+         style="stop-color:#ffee92;stop-opacity:1;"
+         offset="1"
+         id="stop4684-4" />
+    </svg:linearGradient>
+    <svg:clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3933-4-8-3">
+      <svg:rect
+         style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3935-39-3-7"
+         width="210"
+         height="270"
+         x="325.71875"
+         y="351.65625"
+         rx="15"
+         ry="15" />
+    </svg:clipPath>
+    <svg:filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Rotate Color 144"
+       id="filter4524-8-1">
+      <svg:feColorMatrix
+         values="144"
+         type="hueRotate"
+         id="feColorMatrix4526-1-8" />
+    </svg:filter>
+    <svg:linearGradient
+       id="linearGradient3947-90-7-8">
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:1;"
+         offset="0"
+         id="stop3949-63-7-4" />
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:0;"
+         offset="1"
+         id="stop3951-8-0-1" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient3955-180-3-9">
+      <svg:stop
+         style="stop-color:#ffb7b7;stop-opacity:1;"
+         offset="0"
+         id="stop3957-6-8-6" />
+      <svg:stop
+         style="stop-color:#ff8989;stop-opacity:1;"
+         offset="1"
+         id="stop3959-1-3-3" />
+    </svg:linearGradient>
+    <svg:clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3933-4-8-3-4">
+      <svg:rect
+         style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3935-39-3-7-4"
+         width="210"
+         height="270"
+         x="325.71875"
+         y="351.65625"
+         rx="15"
+         ry="15" />
+    </svg:clipPath>
+    <svg:filter
+       color-interpolation-filters="sRGB"
+       inkscape:label="Rotate Color 144"
+       id="filter4524-8-1-1">
+      <svg:feColorMatrix
+         values="144"
+         type="hueRotate"
+         id="feColorMatrix4526-1-8-6" />
+    </svg:filter>
+    <svg:linearGradient
+       id="linearGradient3947-90-7-8-8">
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:1;"
+         offset="0"
+         id="stop3949-63-7-4-3" />
+      <svg:stop
+         style="stop-color:#7c0000;stop-opacity:0;"
+         offset="1"
+         id="stop3951-8-0-1-2" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3955-180-3-9-1"
+       id="linearGradient3961-0-7-2-1"
+       x1="466.25061"
+       y1="420.16519"
+       x2="524.75952"
+       y2="369.80804"
+       gradientUnits="userSpaceOnUse" />
+    <svg:linearGradient
+       id="linearGradient3955-180-3-9-1">
+      <svg:stop
+         style="stop-color:#ffb7b7;stop-opacity:1;"
+         offset="0"
+         id="stop3957-6-8-6-5" />
+      <svg:stop
+         style="stop-color:#ff8989;stop-opacity:1;"
+         offset="1"
+         id="stop3959-1-3-3-2" />
+    </svg:linearGradient>
+    <svg:clipPath
+       id="fg">
+      <svg:rect
+         id="rect5570"
+         height="25"
+         width="484"
+         y="379"
+         x="63" />
+    </svg:clipPath>
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4672"
+       id="linearGradient7254"
+       gradientUnits="userSpaceOnUse"
+       x1="528.25458"
+       y1="226.42188"
+       x2="638.87042"
+       y2="226.42188" />
+    <svg:radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4680"
+       id="radialGradient7256"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.25165177,0.97470501,-1.1209958,0.31463439,583.08211,-450.68841)"
+       cx="566.97766"
+       cy="141.64673"
+       fx="566.97766"
+       fy="141.64673"
+       r="55.973434" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4672"
+       id="linearGradient7258"
+       gradientUnits="userSpaceOnUse"
+       x1="528.25458"
+       y1="226.42188"
+       x2="638.87042"
+       y2="226.42188" />
+    <svg:radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4680"
+       id="radialGradient7260"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.25165177,0.97470501,-1.1209958,0.31463439,583.08211,-450.68841)"
+       cx="566.97766"
+       cy="141.64673"
+       fx="566.97766"
+       fy="141.64673"
+       r="55.973434" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4672"
+       id="linearGradient7262"
+       gradientUnits="userSpaceOnUse"
+       x1="528.25458"
+       y1="226.42188"
+       x2="638.87042"
+       y2="226.42188" />
+    <svg:radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4680"
+       id="radialGradient7264"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.25165177,0.97470501,-1.1209958,0.31463439,583.08211,-450.68841)"
+       cx="566.97766"
+       cy="141.64673"
+       fx="566.97766"
+       fy="141.64673"
+       r="55.973434" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3947"
+       id="linearGradient7266"
+       gradientUnits="userSpaceOnUse"
+       x1="521.2785"
+       y1="399.10898"
+       x2="503.02859"
+       y2="439.51508" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3955"
+       id="linearGradient7268"
+       gradientUnits="userSpaceOnUse"
+       x1="466.25061"
+       y1="420.16519"
+       x2="524.75952"
+       y2="369.80804" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3947-3"
+       id="linearGradient7270"
+       gradientUnits="userSpaceOnUse"
+       x1="521.2785"
+       y1="399.10898"
+       x2="503.02859"
+       y2="439.51508" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3955-3"
+       id="linearGradient7272"
+       gradientUnits="userSpaceOnUse"
+       x1="466.25061"
+       y1="420.16519"
+       x2="524.75952"
+       y2="369.80804" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3947-9"
+       id="linearGradient7274"
+       gradientUnits="userSpaceOnUse"
+       x1="521.2785"
+       y1="399.10898"
+       x2="503.02859"
+       y2="439.51508" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3955-1"
+       id="linearGradient7276"
+       gradientUnits="userSpaceOnUse"
+       x1="466.25061"
+       y1="420.16519"
+       x2="524.75952"
+       y2="369.80804" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3947-6"
+       id="linearGradient7278"
+       gradientUnits="userSpaceOnUse"
+       x1="521.2785"
+       y1="399.10898"
+       x2="503.02859"
+       y2="439.51508" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3955-19"
+       id="linearGradient7280"
+       gradientUnits="userSpaceOnUse"
+       x1="466.25061"
+       y1="420.16519"
+       x2="524.75952"
+       y2="369.80804" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3947-90-7"
+       id="linearGradient7282"
+       gradientUnits="userSpaceOnUse"
+       x1="521.2785"
+       y1="399.10898"
+       x2="503.02859"
+       y2="439.51508" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3955-180-3"
+       id="linearGradient7284"
+       gradientUnits="userSpaceOnUse"
+       x1="466.25061"
+       y1="420.16519"
+       x2="524.75952"
+       y2="369.80804" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3947-60"
+       id="linearGradient7286"
+       gradientUnits="userSpaceOnUse"
+       x1="521.2785"
+       y1="399.10898"
+       x2="503.02859"
+       y2="439.51508" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3955-4"
+       id="linearGradient7288"
+       gradientUnits="userSpaceOnUse"
+       x1="466.25061"
+       y1="420.16519"
+       x2="524.75952"
+       y2="369.80804" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3947-90"
+       id="linearGradient7290"
+       gradientUnits="userSpaceOnUse"
+       x1="521.2785"
+       y1="399.10898"
+       x2="503.02859"
+       y2="439.51508" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3955-180"
+       id="linearGradient7292"
+       gradientUnits="userSpaceOnUse"
+       x1="466.25061"
+       y1="420.16519"
+       x2="524.75952"
+       y2="369.80804" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3947-2"
+       id="linearGradient7294"
+       gradientUnits="userSpaceOnUse"
+       x1="521.2785"
+       y1="399.10898"
+       x2="503.02859"
+       y2="439.51508" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3955-31"
+       id="linearGradient7296"
+       gradientUnits="userSpaceOnUse"
+       x1="466.25061"
+       y1="420.16519"
+       x2="524.75952"
+       y2="369.80804" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3947-8"
+       id="linearGradient7298"
+       gradientUnits="userSpaceOnUse"
+       x1="521.2785"
+       y1="399.10898"
+       x2="503.02859"
+       y2="439.51508" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3955-33"
+       id="linearGradient7300"
+       gradientUnits="userSpaceOnUse"
+       x1="466.25061"
+       y1="420.16519"
+       x2="524.75952"
+       y2="369.80804" />
+  </svg:defs>
+  <style
+     type="text/css">#sunrays {
+  color: red;
+}</style>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="744.86954"
+     inkscape:cy="114.34428"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <svg:metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </svg:metadata>
+  <svg:g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(21.91399,-64.949982)">
+    <svg:g
+       id="g7133"
+       transform="translate(0,1.1241833)">
+      <svg:path
+         inkscape:connector-curvature="0"
+         id="path4690"
+         d="m 276.28628,63.825799 c -35.02603,0 -64.93675,19.639552 -76.87507,47.298011 -12.2825,-6.52542 -26.61853,-10.26754 -41.92504,-10.26754 -34.82722,0 -64.57691,19.38277 -76.65006,46.79305 -0.30129,-0.003 -0.59795,0 -0.90001,0 -45.524017,0 -82.4625705,33.12635 -82.4625705,73.99361 0,14.17135 4.4541755,27.39465 12.1500118,38.64635 -19.1918348,13.54819 -31.5375313,34.58729 -31.5375313,58.20517 0,32.09239 22.78154248,59.3981 54.600052,69.65096 -4.677605,9.28757 -7.312507,19.57695 -7.312507,30.43231 0,37.61593 31.262548,68.64987 71.737569,73.354 -0.12393,1.65976 -0.225,3.32801 -0.225,5.01595 0,40.86726 36.901046,73.99353 82.425066,73.99353 35.27765,0 65.37442,-19.89724 77.13757,-47.87016 6.35815,1.4112 12.99366,2.1545 19.83752,2.1545 30.07958,0 56.40591,-14.45163 70.80006,-36.05427 43.03533,-2.47026 77.10007,-34.60214 77.10007,-73.85896 0,-9.73074 -2.12227,-18.99296 -5.925,-27.50354 42.04556,-3.36925 75.00007,-35.06966 75.00007,-73.69065 0,-25.65543 -14.54722,-48.22983 -36.63754,-61.50425 8.61401,-11.69051 13.61252,-25.70122 13.61252,-40.76718 0,-40.86726 -36.90106,-73.99361 -82.42508,-73.99361 -10.31523,0 -20.18644,1.70745 -29.28753,4.81395 0.11448,-1.59616 0.1875,-3.19182 0.1875,-4.81395 0,-40.86726 -36.90105,-74.027281 -82.42507,-74.027281 z"
+         style="color:#000000;fill:#cccccc;fill-opacity:0.63483151;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <svg:g
+         clip-path="url(#clipPath3933)"
+         transform="matrix(0.42759961,0,0,0.47619048,-91.623121,133.45721)"
+         id="g3918">
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 340.71875,351.65625 c -8.31,0 -15,6.69 -15,15 l 0,240 c 0,8.31 6.69,15 15,15 l 180,0 c 8.31,0 15,-6.69 15,-15 l 0,-185.125 -69.9375,0 0,-69.875 -125.0625,0 z"
+           id="rect3875" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7266);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 468.49805,420.72402 c 0,0 17.44578,31.8751 67.36047,32.91774 10.75974,0.22475 -0.35657,-32.28429 -0.35657,-32.28429 l -66.45645,-2.02998 z"
+           id="rect2985-0"
+           sodipodi:nodetypes="csccc" />
+        <svg:rect
+           y="396.6561"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7268);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 465.89346,351.65625 0,69.875 69.9375,0 -69.9375,-69.875 z"
+           id="path3916" />
+        <svg:rect
+           y="428.56088"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-7"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="460.46567"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-1"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="492.37045"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-17"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="524.27527"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-3"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="556.18005"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-9"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="588.08484"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-8"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      </svg:g>
+      <svg:g
+         style="filter:url(#filter4510)"
+         clip-path="url(#clipPath3933-7)"
+         transform="matrix(0.42759961,0,0,0.47619048,-34.910481,197.87781)"
+         id="g3918-0">
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 340.71875,351.65625 c -8.31,0 -15,6.69 -15,15 l 0,240 c 0,8.31 6.69,15 15,15 l 180,0 c 8.31,0 15,-6.69 15,-15 l 0,-185.125 -69.9375,0 0,-69.875 -125.0625,0 z"
+           id="rect3875-4" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7270);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 468.49805,420.72402 c 0,0 17.44578,31.8751 67.36047,32.91774 10.75974,0.22475 -0.35657,-32.28429 -0.35657,-32.28429 l -66.45645,-2.02998 z"
+           id="rect2985-0-3"
+           sodipodi:nodetypes="csccc" />
+        <svg:rect
+           y="396.6561"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-0"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7272);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 465.89346,351.65625 0,69.875 69.9375,0 -69.9375,-69.875 z"
+           id="path3916-9" />
+        <svg:rect
+           y="428.56088"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-7-2"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="460.46567"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-1-2"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="492.37045"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-17-9"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="524.27527"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-3-4"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="556.18005"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-9-5"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="588.08484"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-8-7"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      </svg:g>
+      <svg:g
+         style="filter:url(#filter4532)"
+         clip-path="url(#clipPath3933-2)"
+         transform="matrix(0.42759961,0,0,0.47619048,-55.591424,4.8647705)"
+         id="g3918-9">
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 340.71875,351.65625 c -8.31,0 -15,6.69 -15,15 l 0,240 c 0,8.31 6.69,15 15,15 l 180,0 c 8.31,0 15,-6.69 15,-15 l 0,-185.125 -69.9375,0 0,-69.875 -125.0625,0 z"
+           id="rect3875-7" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7274);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 468.49805,420.72402 c 0,0 17.44578,31.8751 67.36047,32.91774 10.75974,0.22475 -0.35657,-32.28429 -0.35657,-32.28429 l -66.45645,-2.02998 z"
+           id="rect2985-0-4"
+           sodipodi:nodetypes="csccc" />
+        <svg:rect
+           y="396.6561"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-2"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7276);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 465.89346,351.65625 0,69.875 69.9375,0 -69.9375,-69.875 z"
+           id="path3916-6" />
+        <svg:rect
+           y="428.56088"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-7-5"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="460.46567"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-1-0"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="492.37045"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-17-98"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="524.27527"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-3-6"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="556.18005"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-9-1"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="588.08484"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-8-4"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      </svg:g>
+      <svg:g
+         style="filter:url(#filter4516)"
+         clip-path="url(#clipPath3933-9)"
+         transform="matrix(0.42759961,0,0,0.47619048,67.13956,224.46377)"
+         id="g3918-1">
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 340.71875,351.65625 c -8.31,0 -15,6.69 -15,15 l 0,240 c 0,8.31 6.69,15 15,15 l 180,0 c 8.31,0 15,-6.69 15,-15 l 0,-185.125 -69.9375,0 0,-69.875 -125.0625,0 z"
+           id="rect3875-5" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7278);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 468.49805,420.72402 c 0,0 17.44578,31.8751 67.36047,32.91774 10.75974,0.22475 -0.35657,-32.28429 -0.35657,-32.28429 l -66.45645,-2.02998 z"
+           id="rect2985-0-32"
+           sodipodi:nodetypes="csccc" />
+        <svg:rect
+           y="396.6561"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-98"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7280);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 465.89346,351.65625 0,69.875 69.9375,0 -69.9375,-69.875 z"
+           id="path3916-1" />
+        <svg:rect
+           y="428.56088"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-7-8"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="460.46567"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-1-5"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="492.37045"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-17-7"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="524.27527"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-3-2"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="556.18005"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-9-3"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="588.08484"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-8-3"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      </svg:g>
+      <svg:g
+         style="filter:url(#filter4524-8)"
+         clip-path="url(#clipPath3933-4-8)"
+         transform="matrix(0.42759961,0,0,0.47619048,157.25639,-23.866419)"
+         id="g3918-5-0">
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 340.71875,351.65625 c -8.31,0 -15,6.69 -15,15 l 0,240 c 0,8.31 6.69,15 15,15 l 180,0 c 8.31,0 15,-6.69 15,-15 l 0,-185.125 -69.9375,0 0,-69.875 -125.0625,0 z"
+           id="rect3875-1-5" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7282);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 468.49805,420.72402 c 0,0 17.44578,31.8751 67.36047,32.91774 10.75974,0.22475 -0.35657,-32.28429 -0.35657,-32.28429 l -66.45645,-2.02998 z"
+           id="rect2985-0-1-5"
+           sodipodi:nodetypes="csccc" />
+        <svg:rect
+           y="396.6561"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-87-4"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7284);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 465.89346,351.65625 0,69.875 69.9375,0 -69.9375,-69.875 z"
+           id="path3916-96-5" />
+        <svg:rect
+           y="428.56088"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-7-7-1"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="460.46567"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-1-69-3"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="492.37045"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-17-8-1"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="524.27527"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-3-28-9"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="556.18005"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-9-52-8"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="588.08484"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-8-99-6"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      </svg:g>
+      <svg:g
+         style="filter:url(#filter4510)"
+         clip-path="url(#clipPath3933-24)"
+         transform="matrix(0.42759961,0,0,0.47619048,36.763188,-49.136767)"
+         id="g3918-6">
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 340.71875,351.65625 c -8.31,0 -15,6.69 -15,15 l 0,240 c 0,8.31 6.69,15 15,15 l 180,0 c 8.31,0 15,-6.69 15,-15 l 0,-185.125 -69.9375,0 0,-69.875 -125.0625,0 z"
+           id="rect3875-0" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7286);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 468.49805,420.72402 c 0,0 17.44578,31.8751 67.36047,32.91774 10.75974,0.22475 -0.35657,-32.28429 -0.35657,-32.28429 l -66.45645,-2.02998 z"
+           id="rect2985-0-2"
+           sodipodi:nodetypes="csccc" />
+        <svg:rect
+           y="396.6561"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-97"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7288);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 465.89346,351.65625 0,69.875 69.9375,0 -69.9375,-69.875 z"
+           id="path3916-7" />
+        <svg:rect
+           y="428.56088"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-7-1"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="460.46567"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-1-6"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="492.37045"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-17-5"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="524.27527"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-3-26"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="556.18005"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-9-30"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="588.08484"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-8-9"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      </svg:g>
+      <svg:g
+         style="filter:url(#filter4524)"
+         clip-path="url(#clipPath3933-4)"
+         transform="matrix(0.42759961,0,0,0.47619048,38.407134,108.86333)"
+         id="g3918-5">
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 340.71875,351.65625 c -8.31,0 -15,6.69 -15,15 l 0,240 c 0,8.31 6.69,15 15,15 l 180,0 c 8.31,0 15,-6.69 15,-15 l 0,-185.125 -69.9375,0 0,-69.875 -125.0625,0 z"
+           id="rect3875-1" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7290);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 468.49805,420.72402 c 0,0 17.44578,31.8751 67.36047,32.91774 10.75974,0.22475 -0.35657,-32.28429 -0.35657,-32.28429 l -66.45645,-2.02998 z"
+           id="rect2985-0-1"
+           sodipodi:nodetypes="csccc" />
+        <svg:rect
+           y="396.6561"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-87"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7292);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 465.89346,351.65625 0,69.875 69.9375,0 -69.9375,-69.875 z"
+           id="path3916-96" />
+        <svg:rect
+           y="428.56088"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-7-7"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="460.46567"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-1-69"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="492.37045"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-17-8"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="524.27527"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-3-28"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="556.18005"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-9-52"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="588.08484"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-8-99"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      </svg:g>
+      <svg:g
+         style="filter:url(#filter4528)"
+         clip-path="url(#clipPath3933-70)"
+         transform="matrix(0.42759961,0,0,0.47619048,126.97856,47.709595)"
+         id="g3918-8">
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 340.71875,351.65625 c -8.31,0 -15,6.69 -15,15 l 0,240 c 0,8.31 6.69,15 15,15 l 180,0 c 8.31,0 15,-6.69 15,-15 l 0,-185.125 -69.9375,0 0,-69.875 -125.0625,0 z"
+           id="rect3875-15" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7294);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 468.49805,420.72402 c 0,0 17.44578,31.8751 67.36047,32.91774 10.75974,0.22475 -0.35657,-32.28429 -0.35657,-32.28429 l -66.45645,-2.02998 z"
+           id="rect2985-0-6"
+           sodipodi:nodetypes="csccc" />
+        <svg:rect
+           y="396.6561"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-84"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7296);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 465.89346,351.65625 0,69.875 69.9375,0 -69.9375,-69.875 z"
+           id="path3916-4" />
+        <svg:rect
+           y="428.56088"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-7-73"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="460.46567"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-1-3"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="492.37045"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-17-55"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="524.27527"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-3-23"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="556.18005"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-9-9"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="588.08484"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-8-34"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      </svg:g>
+      <svg:g
+         style="filter:url(#filter4520)"
+         clip-path="url(#clipPath3933-73)"
+         transform="matrix(0.42759961,0,0,0.47619048,163.31432,178.86332)"
+         id="g3918-4">
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:#ff7a7a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 340.71875,351.65625 c -8.31,0 -15,6.69 -15,15 l 0,240 c 0,8.31 6.69,15 15,15 l 180,0 c 8.31,0 15,-6.69 15,-15 l 0,-185.125 -69.9375,0 0,-69.875 -125.0625,0 z"
+           id="rect3875-50" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7298);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 468.49805,420.72402 c 0,0 17.44578,31.8751 67.36047,32.91774 10.75974,0.22475 -0.35657,-32.28429 -0.35657,-32.28429 l -66.45645,-2.02998 z"
+           id="rect2985-0-28"
+           sodipodi:nodetypes="csccc" />
+        <svg:rect
+           y="396.6561"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-4"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:path
+           inkscape:connector-curvature="0"
+           style="color:#000000;fill:url(#linearGradient7300);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 465.89346,351.65625 0,69.875 69.9375,0 -69.9375,-69.875 z"
+           id="path3916-95" />
+        <svg:rect
+           y="428.56088"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-7-84"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="460.46567"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-1-519"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="492.37045"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-17-2"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="524.27527"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-3-65"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="556.18005"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-9-8"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <svg:rect
+           y="588.08484"
+           x="349.29019"
+           height="7.1428571"
+           width="157.85715"
+           id="rect3963-8-40"
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      </svg:g>
+    </svg:g>
+    <svg:g
+       id="sunrays"
+       transform="matrix(2.0890285,0,0,2.0890285,-519.76829,452.26787)">
+      <svg:path
+         style="color:#000000;fill:#ffff00;fill-opacity:0.54775277;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 727.35665,1.861256 c -15.25439,15.346329 -36.05325,25.044989 -57.61455,26.866107 -2.69991,-30.8601317 -5.39983,-61.720263 -8.09974,-92.580395 21.90476,21.904763 43.80953,43.809525 65.71429,65.714288 z"
+         id="path4993"
+         inkscape:connector-curvature="0" />
+      <svg:path
+         style="color:#000000;fill:#ffff00;fill-opacity:0.54775277;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="M 637.58926,25.914351 C 616.67175,20.37682 597.87304,7.2138189 585.51525,-10.548261 c 25.3757,-17.768258 50.7514,-35.536517 76.1271,-53.304775 -8.0177,29.922462 -16.03539,59.8449247 -24.05309,89.767387 z"
+         id="path4993-3"
+         inkscape:connector-curvature="0" />
+      <svg:path
+         style="color:#000000;fill:#ffff00;fill-opacity:0.54775277;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 574.31294,-32.067723 c -7.46171,-20.310814 -7.46171,-43.259809 0,-63.570623 29.10981,10.595103 58.21961,21.190207 87.32942,31.78531 -29.10981,10.595104 -58.21961,21.190209 -87.32942,31.785313 z"
+         id="path4993-3-8"
+         inkscape:connector-curvature="0" />
+      <svg:path
+         style="color:#000000;fill:#ffff00;fill-opacity:0.54775277;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 629.85705,-151.18246 c 20.31082,-7.4617 43.2598,-7.4617 63.57062,0 -10.5951,29.10981 -21.19021,58.219617 -31.78531,87.329426 -10.5951,-29.109809 -21.19021,-58.219616 -31.78531,-87.329426 z"
+         id="path4993-3-8-0"
+         inkscape:connector-curvature="0" />
+      <svg:path
+         style="color:#000000;fill:#ffff00;fill-opacity:0.54775277;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 721.37921,-135.04463 c 16.61744,13.85882 28.09194,33.73324 31.78531,55.053781 -30.50739,5.379273 -61.01477,10.758547 -91.52216,16.13782 19.91228,-23.730534 39.82457,-47.461071 59.73685,-71.191601 z"
+         id="path4993-3-8-0-7"
+         inkscape:connector-curvature="0" />
+      <svg:path
+         style="color:#000000;fill:#ffff00;fill-opacity:0.54775277;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 753.16453,-47.715195 c -3.03722,9.388473 -3.79404,25.908459 -13.75758,28.759566 -25.92153,-14.965799 -51.84305,-29.931597 -77.76458,-44.897396 30.50739,5.379277 61.01477,10.758553 91.52216,16.13783 z"
+         id="path4993-3-8-0-7-7"
+         inkscape:connector-curvature="0" />
+      <svg:path
+         style="color:#000000;fill:#ffff00;fill-opacity:0.54775277;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 585.51526,-117.1578 c 6.72039,-7.22527 14.38796,-21.87761 24.62293,-20.25081 17.16806,24.51853 34.33611,49.037052 51.50417,73.555577 -25.3757,-17.768256 -50.7514,-35.536511 -76.1271,-53.304767 z"
+         id="path4993-3-8-0-78"
+         inkscape:connector-curvature="0" />
+    </svg:g>
+    <svg:g
+       style="stroke:#808000;stroke-width:1.08561647"
+       transform="matrix(0.95569137,0,0,0.90587607,297.26984,91.632101)"
+       id="g4931">
+      <svg:path
+         inkscape:connector-curvature="0"
+         style="color:#000000;fill:url(#linearGradient7254);fill-opacity:1;fill-rule:nonzero;stroke:#806c00;stroke-width:1.0747484;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 528.75,153.78125 0,110.71875 c -10e-4,0.0947 0,0.18642 0,0.28125 0,18.93548 24.54079,34.28125 54.8125,34.28125 30.27171,0 54.8125,-15.34577 54.8125,-34.28125 0,-0.095 10e-4,-0.18645 0,-0.28125 l 0,-110.71875 -109.625,0 z"
+         id="path4933" />
+      <svg:path
+         sodipodi:type="arc"
+         style="color:#000000;fill:url(#radialGradient7256);fill-opacity:1;fill-rule:nonzero;stroke:#806c00;stroke-width:1.08123529;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path4935"
+         sodipodi:cx="584.04688"
+         sodipodi:cy="154.50504"
+         sodipodi:rx="55.475452"
+         sodipodi:ry="34.285713"
+         d="m 639.52233,154.50504 c 0,18.93547 -24.83721,34.28571 -55.47546,34.28571 -30.63824,0 -55.47545,-15.35024 -55.47545,-34.28571 0,-18.93548 24.83721,-34.28572 55.47545,-34.28572 30.63825,0 55.47546,15.35024 55.47546,34.28572 z"
+         transform="matrix(0.98803673,0,0,1,6.5116607,0)" />
+    </svg:g>
+    <svg:g
+       id="g4941"
+       transform="matrix(0.95569137,0,0,0.90587607,243.26984,151.6321)"
+       style="stroke:#808000;stroke-width:1.08561647">
+      <svg:path
+         id="path4943"
+         d="m 528.75,153.78125 0,110.71875 c -10e-4,0.0947 0,0.18642 0,0.28125 0,18.93548 24.54079,34.28125 54.8125,34.28125 30.27171,0 54.8125,-15.34577 54.8125,-34.28125 0,-0.095 10e-4,-0.18645 0,-0.28125 l 0,-110.71875 -109.625,0 z"
+         style="color:#000000;fill:url(#linearGradient7258);fill-opacity:1;fill-rule:nonzero;stroke:#806c00;stroke-width:1.0747484;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <svg:path
+         transform="matrix(0.98803673,0,0,1,6.5116607,0)"
+         d="m 639.52233,154.50504 c 0,18.93547 -24.83721,34.28571 -55.47546,34.28571 -30.63824,0 -55.47545,-15.35024 -55.47545,-34.28571 0,-18.93548 24.83721,-34.28572 55.47545,-34.28572 30.63825,0 55.47546,15.35024 55.47546,34.28572 z"
+         sodipodi:ry="34.285713"
+         sodipodi:rx="55.475452"
+         sodipodi:cy="154.50504"
+         sodipodi:cx="584.04688"
+         id="path4945"
+         style="color:#000000;fill:url(#radialGradient7260);fill-opacity:1;fill-rule:nonzero;stroke:#806c00;stroke-width:1.08123529;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </svg:g>
+    <svg:g
+       id="g4660"
+       transform="matrix(0.95569137,0,0,0.90587607,355.61503,149.85546)"
+       style="stroke:#808000;stroke-width:1.08561647">
+      <svg:path
+         id="path4632-0"
+         d="m 528.75,153.78125 0,110.71875 c -10e-4,0.0947 0,0.18642 0,0.28125 0,18.93548 24.54079,34.28125 54.8125,34.28125 30.27171,0 54.8125,-15.34577 54.8125,-34.28125 0,-0.095 10e-4,-0.18645 0,-0.28125 l 0,-110.71875 -109.625,0 z"
+         style="color:#000000;fill:url(#linearGradient7262);fill-opacity:1;fill-rule:nonzero;stroke:#806c00;stroke-width:1.0747484;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <svg:path
+         transform="matrix(0.98803673,0,0,1,6.5116607,0)"
+         d="m 639.52233,154.50504 c 0,18.93547 -24.83721,34.28571 -55.47546,34.28571 -30.63824,0 -55.47545,-15.35024 -55.47545,-34.28571 0,-18.93548 24.83721,-34.28572 55.47545,-34.28572 30.63825,0 55.47546,15.35024 55.47546,34.28572 z"
+         sodipodi:ry="34.285713"
+         sodipodi:rx="55.475452"
+         sodipodi:cy="154.50504"
+         sodipodi:cx="584.04688"
+         id="path4632"
+         style="color:#000000;fill:url(#radialGradient7264);fill-opacity:1;fill-rule:nonzero;stroke:#806c00;stroke-width:1.08123529;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </svg:g>
+    <svg:path
+       sodipodi:type="star"
+       style="color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4859"
+       sodipodi:sides="3"
+       sodipodi:cx="509.11688"
+       sodipodi:cy="290.70715"
+       sodipodi:r1="51.51778"
+       sodipodi:r2="25.75889"
+       sodipodi:arg1="2.0943951"
+       sodipodi:arg2="3.1415927"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 483.35799,335.32286 0,-89.23141 77.27667,44.6157 z"
+       inkscape:transform-center-x="-12.879445"
+       transform="translate(58.774222,27.800529)" />
+    <svg:path
+       sodipodi:type="star"
+       style="color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4859-5"
+       sodipodi:sides="3"
+       sodipodi:cx="509.11688"
+       sodipodi:cy="290.70715"
+       sodipodi:r1="51.51778"
+       sodipodi:r2="25.75889"
+       sodipodi:arg1="2.0943951"
+       sodipodi:arg2="3.1415927"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 483.35799,335.32286 0,-89.23141 77.27667,44.6157 z"
+       inkscape:transform-center-x="-12.879445"
+       transform="translate(619.12658,27.800529)" />
+    <svg:g
+       id="g7121"
+       transform="translate(-105.14336,-20)">
+      <svg:rect
+         ry="5"
+         rx="5"
+         y="216.68318"
+         x="1334.7753"
+         height="243.649"
+         width="434.28571"
+         id="rect7119"
+         style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <svg:g
+         transform="matrix(0.78051726,0,0,0.78051726,544.85291,-217.75473)"
+         id="g7109">
+        <svg:path
+           cursor="pointer"
+           d="m 1284.0259,595.24466 a 117.43967,117.43967 0 0 1 117.2626,123.88656 l -117.2626,-6.44689 z"
+           id="path5698"
+           inkscape:connector-curvature="0"
+           style="fill:#8ed300;fill-rule:evenodd" />
+        <svg:path
+           cursor="pointer"
+           d="m 1413.921,727.44713 a 117.43967,117.43967 0 0 1 -64.9832,98.71459 l -52.2794,-105.16148 z"
+           id="path5700"
+           inkscape:connector-curvature="0"
+           style="fill:#7cb021;fill-rule:evenodd" />
+        <svg:path
+           cursor="pointer"
+           d="m 1336.3053,817.84581 a 117.43967,117.43967 0 0 1 -92.7154,5.09733 l 40.436,-110.25881 z"
+           id="path5702"
+           inkscape:connector-curvature="0"
+           style="fill:#568000;fill-rule:evenodd" />
+        <svg:path
+           cursor="pointer"
+           d="m 1243.5899,822.94314 a 117.43967,117.43967 0 0 1 -54.7261,-41.4384 l 95.1621,-68.82041 z"
+           id="path5704"
+           inkscape:connector-curvature="0"
+           style="fill:#3a3a3a;fill-rule:evenodd" />
+        <svg:path
+           cursor="pointer"
+           d="m 1188.8638,781.50474 a 117.43967,117.43967 0 0 1 -21.0822,-52.107 l 116.2443,-16.71341 z"
+           id="path5706"
+           inkscape:connector-curvature="0"
+           style="fill:#969696;fill-rule:evenodd" />
+        <svg:path
+           cursor="pointer"
+           d="m 1167.7816,729.39774 a 117.43967,117.43967 0 0 1 3.2051,-48.56025 l 113.0392,31.84684 z"
+           id="path5708"
+           inkscape:connector-curvature="0"
+           style="fill:#f5f4f2;fill-rule:evenodd" />
+        <svg:path
+           cursor="pointer"
+           d="m 1170.9867,680.83749 a 117.43967,117.43967 0 0 1 20.9918,-41.08707 l 92.0474,72.93391 z"
+           id="path5710"
+           inkscape:connector-curvature="0"
+           style="fill:#8ed300;fill-rule:evenodd" />
+        <svg:path
+           cursor="pointer"
+           d="m 1191.9785,639.75042 a 117.43967,117.43967 0 0 1 92.0474,-44.50576 l 0,117.43967 z"
+           id="path5712"
+           inkscape:connector-curvature="0"
+           style="fill:#7cb021;fill-rule:evenodd" />
+      </svg:g>
+    </svg:g>
+  </svg:g>
+</svg:svg>
